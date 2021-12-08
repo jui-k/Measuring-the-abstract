@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>Search</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="search.css">
+</head>
+<body>
+    <header>
+    <div class="wrapper">
+		<ul class="nav-area">
+		<li><a href="project.html">Home</a></li>
+		<li style="color:white">|</li>
+		<li><a href="AboutUs.html">About Us</a></li>
+		<li style="color:white">|</li>
+		<li><a href="AboutYou.html">Tell Us About You</a></li>
+		<li style="color:white">|</li>
+		<li><a href="OurData.html">Our Data</a></li>
+		</ul>
+	</div>
+	
+	<!--PHP CODE-->
+	<?php 
+		if(isset($_GET["area"])){
+		$area=$_GET["area"];
+		}else{
+			$area="none";
+		}
+		if(isset($_GET["pin"])){
+			$pin=$_GET["pin"];
+		}else{
+			$pin=0;
+		}
+		
+		//AREA TO PIN
+		$pinFile="C:\wamp\www\program\Newpin.txt";
+		if (file_exists($pinFile))
+		{
+			$flag=0;
+			$myfile= fopen("Newpin.txt","r");
+			while(!feof($myfile)){
+					$line= fgets($myfile,50);
+					$split=explode("\t", $line);
+					$n_pin= $split[1];
+					$n_area=trim($split[0]);
+					if($area=='none'){
+						$value1=strcmp($n_pin,$pin);
+						//echo $value1.' '.$n_pin.' '.$n_area.'<br>';
+						if($value1==2){
+							$pin=$n_pin;
+							$area=$n_area;	
+							$flag=1;
+						}
+					}
+					else{
+						$value2=strcasecmp($n_area,$area);
+						//echo $value2.' '.$n_area.'<br>';
+						if($value2==0){
+							$pin=$n_pin;
+							$area=$n_area;
+							$flag=1;
+						}
+					}
+				if($flag==1) break;
+				}
+			//echo 'Pin: '.$pin.'<br>Area: '.$area.'<br>';	
+			fclose($myfile);
+		}
+		else{
+			echo "File does not exist";
+		}
+		
+		//GRAPH
+		$formFile="C:\wamp\www\program\hform_data.txt";
+		
+		if (file_exists($formFile))
+		{	
+			//$dic=array();
+			$count=0;
+			$purp=0;
+			$soc=0;
+			$finance=0;
+			$comm=0;
+			$phy=0;
+			
+			$myfile= fopen("hform_data.txt","r");
+			while(!feof($myfile)){
+					$line= fgets($myfile,90);
+					$split=explode("\t", $line);
+					$n_pin= $split[0];
+					$n_purpose=($split[1]+$split[7]*2)/2;
+					$n_social=$split[2];
+					$n_physical=$split[6];
+					$n_financial=($split[3]+$split[8])/2;
+					$n_community=($split[4]+$split[5])/2;
+					$value=strcmp($pin,$n_pin);
+					//echo $value.' '.$n_pin.'<br>';
+					if ($value==2)
+					{	//echo $value." ".$n_pin."<br>";
+						$purp+=$n_purpose;
+						$soc+=$n_social;
+						$finance+=$n_financial;
+						$comm+=$n_community;
+						$phy+=$n_physical;
+						$graph_pin=$n_pin;
+						$count++;
+					}
+					//echo $n_purpose." ".$n_social." ".$n_financial." ".$n_community." ".$n_physical."<br>";
+				}
+			//echo $purp." ".$soc." ".$finance." ".$comm." ".$phy."<br>";
+			if($count==0) $count=1;
+			$purp=round($purp/$count,2);
+			$soc=round($soc/$count,2);
+			$finance=round($finance/$count,2);
+			$comm=round($comm/$count,2);
+			$phy=round($phy/$count,2);	
+			$graph_pin=$pin;
+			//echo $pin.' '.$purp." ".$soc." ".$finance." ".$comm." ".$phy."<br>";
+			fclose($myfile);
+		}
+		else{
+			echo "File does not exist";
+		}
+	?>
+	
+	<div class="graph">
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      
+	  //Bar graph
+	  google.charts.load('current', {'packages':['corechart', 'bar']});
+      google.charts.setOnLoadCallback(drawStuff);
+
+      function drawStuff() {
+
+        var button = document.getElementById('change-chart');
+        var chartDiv = document.getElementById('chart_div');
+
+        var data = google.visualization.arrayToDataTable([
+          ['', 'Average', '<?php echo htmlspecialchars($area)?>'],
+          ['Purpose', 6.82, <?php echo htmlspecialchars($purp)?>],
+          ['Community', 8.90, <?php echo htmlspecialchars($comm)?>],
+          ['Health', 7.92, <?php echo htmlspecialchars($phy)?>],
+          ['Financial', 6.78, <?php echo htmlspecialchars($finance)?>],
+          ['Social', 7.86, <?php echo htmlspecialchars($soc)?>]
+        ]);
+
+        var materialOptions = {
+          width: 580,
+          chart: {
+            title: '',
+            subtitle: 'Location vs. Traits (score out of 10)'
+          },
+          series: {
+            0: { axis: 'Average' }, // Bind series 0 to an axis named 'distance'.
+            1: { axis: 'This place' } // Bind series 1 to an axis named 'brightness'.
+          },
+		  backgroundColor: {fill: 'white'},
+          axes: {
+            y: {
+              distance: {label: ''}, // Left y-axis.
+              brightness: {side: '', label: ''} // Right y-axis.
+            }
+          }
+        };
+
+        var classicOptions = {
+          series: {
+            0: {targetAxisIndex: 0},
+            1: {targetAxisIndex: 1}
+          },
+		  
+          title: '',
+          vAxes: {
+            // Adds titles to each axis.
+            0: {title: 'category'},
+            1: {title: 'score'}
+          }
+        };
+
+        function drawMaterialChart() {
+          var materialChart = new google.charts.Bar(chartDiv);
+          materialChart.draw(data, google.charts.Bar.convertOptions(materialOptions));
+          button.innerText = 'Change to Classic';
+          button.onclick = drawClassicChart;
+        }
+
+        function drawClassicChart() {
+          var classicChart = new google.visualization.ColumnChart(chartDiv);
+          classicChart.draw(data, classicOptions);
+          button.innerText = 'Change to Material';
+          button.onclick = drawMaterialChart;
+        }
+
+        drawMaterialChart();
+    };
+	</script>
+	
+	<script type="text/javascript">
+	//Dot graph
+	 google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Location', 'Price'],
+        ['Anand Nagar', 5886.0],['Aundh', 8096.0],['Baner', 6864.0],['Bhawani Peth', 6226.0],['Bhosari', 4887.5],
+		['Bhusari Colony', 8245.0],['Bibwewadi', 6949.0],['Camp', 7628.5],['Chinchwad', 5950.0],['Chinchwad Gaon', 5780.0],
+		['Dapodi', 5610.0],['Dhankawadi', 4590.0],['Dhanori', 5185.0],['Dighi', 4802.0],['Gultekadi', 7883.5],
+		['Guruvar Peth', 7012.5],['Hadapsar', 13699.0],['Kalewadi', 5567.5],['Karve Nagar', 8415.0],['Kasarwadi', 5631.5],
+		['Katraj', 5142.5],['Khadki', 9750.0],['Kirkatwadi', 4058.5],['Kondhwa Budruk', 4696.5],['Kothrud', 8988.5],
+		['Lohegaon', 4824.0],['Model Colony', 11241.5],['Mohamadwadi', 5716.0],['Mundhwa', 5971.0],['Nana Peth', 7246.0],
+		['Narayan Peth', 12500.0],['Nehru Nagar', 5270.0],['Parvati Darshan', 8351.5],['Pashan', 6163.0],['Pimple Nilakh', 7204.0],
+		['Pimple Saudagar', 6311.5],['Pimpri Chinchwad', 5334.0],['Punawale', 5079.0],['Rasta Peth', 6885.0],['Sadashiv Peth', 9243.5],
+		['Salisbury Park', 9478.0],['Sasane Nagar', 4271.5],['Shaniwar Peth', 8181.5],['Shivaji Nagar', 11517.5],['Shukravar Peth', 7437.5],
+		['Talawade', 3634.0],['Tathawade', 5504.0],['Thergaon', 5589.0],['Vadgaon Budruk', 5079.0],['Vadgaon Sheri', 6588.0],
+		['Vishrantwadi', 5652.5],['Wakad', 5929.0],['Wanowrie', 7118.5],['Warje', 6120.0],['Yamuna Nagar', 6750.0],
+		['Yerwada', 7076.0],['Deccan Gymkhana', 24857.0]
+        ]);
+
+        var options = {
+          title: 'Location vs. Price comparison (in per sqft)',
+          hAxis: {title: 'Location'},
+          vAxis: {title: 'Price'},
+          legend: 'none',
+		  width: 700
+        };
+		
+
+        var chart = new google.visualization.ScatterChart(document.getElementById('dot_div'));
+
+        chart.draw(data, options);
+      }
+    </script>
+	</div>
+	<div id="chart_div" style="width: 800px; height: 500px;"></div>
+	<div id="dot_div" style="width: 900px; height: 500px;"></div>
+	</header>
+	
+	<!--PHP CODE-->
+	<div class="phpCode">
+	<?php
+	
+	
+	//echo $area.' '.$pin;
+	
+	//FUNCTIONS
+	function check($arr,$pin){
+		foreach($arr as $key => $val){
+			if ($pin==$key)
+				return true;
+		}
+		return false;
+	}
+	
+	function percent($arr,$pin){
+		//take out the unique values
+		$i=0;
+		$value=0;
+		foreach(array_unique($arr) as $key => $val){ 
+			$list[$i]=$val;
+			$i++;
+		}
+		//calculate percentile 
+		$tcount=sizeof($list);
+		$pcount=0;
+		foreach($arr as $key => $val){
+			if ($pin==$key)
+				$value=$val;
+		}
+		foreach($list as $key => $val){
+			if ($value==$val)
+				$pcount=$key+1; 
+		}
+		$pcount=$tcount-$pcount;
+		$percentile=($pcount/$tcount)*100;
+		if($percentile==100) $percentile=0;
+		//echo '<br>'.$tcount.' '.$pcount.' '.$percentile.'<br>';
+		return round($percentile,2);
+	}
+	
+	function color($percent){
+		if($percent<=25)
+			$color="#DC143C";
+		else if($percent<=50)
+			$color="orange";
+		else if($percent<=75)
+			$color="yellow";
+		else if($percent<=100)
+			$color="#7FFF00";
+		return $color;
+	}
+	
+	//ALL FILE ADDRESSES
+	$hotelFile="C:\wamp\www\program\hotel.txt";
+	$bankFile="C:\wamp\www\program\banks.txt";
+	$busFile="C:\wamp\www\program\bus.txt";
+	$gardenFile="C:\wamp\www\program\garden.txt";
+	$collegeFile="C:\wamp\www\program\college.txt";
+	$HeritagePlacesFile="C:\wamp\www\program\place.txt";
+	$MedicalFile="C:\wamp\www\program\medicalStore.txt";
+	$MuseumFile="C:\wamp\www\program\museum.txt";
+	$PMCschoolFile="C:\wamp\www\program\PMCschools.txt";
+	$NursingFile="C:\wamp\www\program\home_nursing.txt";
+	$stationFile="C:\wamp\www\program\stations.txt";
+	$RestaurantFile="C:\wamp\www\program\hrestaurant.txt";
+	$schoolFile="C:\wamp\www\program\schools.txt";
+	
+
+	//HOTELS IN THAT PIN
+	if (file_exists($hotelFile))
+	{	
+		$dic=array();
+		$count=0;
+		$myfile= fopen("hotel.txt","r");
+		while(!feof($myfile)){
+				$line= fgets($myfile,50);
+				$split=explode("\t", $line);
+				$n_pin= $split[1];
+				$hotelName=$split[0];
+				$value=strcmp($pin,$n_pin);
+				//echo $n_pin.' '.$value.'<br>';
+				if ($value==0)	
+					$count++;
+				
+				if(check($dic,$n_pin)==false) //percentile
+					$dic[$n_pin]=1;
+				else
+					$dic[$n_pin]++;
+		}
+		$hotelCount=$count; 
+		arsort($dic);
+		//echo '-----'.'Hotel Percentile: '.percent($dic,$pin);
+		$percent=percent($dic,$pin);
+		$hotelColor=color($percent);
+		//echo $hotelColor;
+		fclose($myfile);
+	}
+	else{
+		echo "File does not exist";
+	}
+	
+	//BANK IN THAT PIN
+	if (file_exists($bankFile))
+	{
+		$dic=array();
+		$count=0;
+		$myfile= fopen("banks.txt","r");
+		while(!feof($myfile)){
+				$line= fgets($myfile,80);
+				$split=explode("\t", $line);
+				$n_pin= $split[1];
+				$bankName=$split[0];
+				$value=strcmp($pin,$n_pin);
+				//echo $n_pin." ".$bankName." ".$value."<br>";
+				if ($value==0)	
+					$count++;
+					
+				if(check($dic,$n_pin)==false) //percentile
+					$dic[$n_pin]=1;
+				else
+					$dic[$n_pin]++;
+			}
+		$bankCount=$count;
+		arsort($dic);
+		//echo '------'.'Bank Percentile: '.percent($dic,$pin); 
+		$percent=percent($dic,$pin);
+		$bankColor=color($percent);
+		//echo $bankColor;
+		fclose($myfile);
+	}
+	else{
+		echo "File does not exist";
+	}
+	
+	//BUS DEPOTS IN THAT PIN
+	if (file_exists($busFile))
+	{
+		$dic=array();
+		$count=0;
+		$myfile= fopen("bus.txt","r");
+		while(!feof($myfile)){
+				$line= fgets($myfile,50);
+				$split=explode("\t", $line);
+				$n_pin= $split[1];
+				$busStop=$split[0];
+				$value=strcmp($pin,$n_pin);
+				//echo $n_pin." ".$bankName." ".$value."<br>";
+				if ($value==0)	
+					$count++;
+					
+				if(check($dic,$n_pin)==false) //percentile
+					$dic[$n_pin]=1;
+				else
+					$dic[$n_pin]++;
+			}
+		$busCount=$count;
+		arsort($dic);
+		//echo '------'.'Bus Percentile: '.percent($dic,$pin); 
+		$percent=percent($dic,$pin);
+		$busColor=color($percent);
+		//echo $busColor;
+		fclose($myfile);
+	}
+	else{
+		echo "File does not exist";
+	}
+	
+	//GARDENS IN THAT PIN
+	if (file_exists($gardenFile))
+	{
+		$dic=array();
+		$count=0;
+		$myfile= fopen("garden.txt","r");
+		while(!feof($myfile)){
+				$line= fgets($myfile,50);
+				$split=explode("\t", $line);
+				$number_of_gardens= $split[1];
+				$n_pin=$split[0];
+				$value=strcmp($pin,$n_pin);
+				//echo $n_pin." ".$number_of_gardens."".$value."<br>";
+				if ($value==2)	
+					$count=(int)$number_of_gardens;
+					
+				if(check($dic,$n_pin)==false) //percentile
+					$dic[$n_pin]=(int)$number_of_gardens;
+				else
+					$dic[$n_pin]++;
+			}
+		//echo '<br>Gardens: '.$count;
+		$gardensCount=$count;
+		//echo $gardensCount;
+		arsort($dic);
+		//echo '------'.'Bus Percentile: '.percent($dic,$pin); 
+		$percent=percent($dic,$pin);
+		$gardenColor=color($percent);
+		//echo $gardenColor;
+		fclose($myfile);
+	}
+	else{
+		echo "File does not exist";
+	}
+	
+	//COLLEGES IN THAT PIN
+	if (file_exists($collegeFile))
+	{	
+		$dic=array();
+		$count=0;
+		$myfile= fopen("college.txt","r");
+		while(!feof($myfile)){
+				$line= fgets($myfile,90);
+				$split=explode("\t", $line);
+				$n_pin= $split[1];
+				$college=$split[0];
+				$value=strcmp($pin,$n_pin);
+				//echo $value." ".$n_pin."<br>";
+				if ($value==0)	
+					$count++;
+					
+				if(check($dic,$n_pin)==false) //percentile
+					$dic[$n_pin]=1;
+				else
+					$dic[$n_pin]++;
+			}
+		$collegeCount=$count;
+		arsort($dic);
+		//echo '------'.'College Percentile: '.percent($dic,$pin); 
+		$percent=percent($dic,$pin);
+		$collegeColor=color($percent);
+		//echo $collegeColor;
+		fclose($myfile);
+	}
+	else{
+		echo "File does not exist";
+	}
+	
+	//HERITAGE PLACES IN THE PIN
+	if (file_exists($HeritagePlacesFile))
+	{
+		$dic=array();
+		$count=0;
+		$myfile= fopen("place.txt","r");
+		while(!feof($myfile)){
+				$line= fgets($myfile,100);
+				$split=explode("\t", $line);
+				$n_pin= $split[1];
+				$place=$split[0];
+				$value=strcmp($pin,$n_pin);
+				//echo $value." ".$n_pin."<br>";
+				if ($value==0)	
+					$count++;
+					
+				if(check($dic,$n_pin)==false) //percentile
+					$dic[$n_pin]=1;
+				else
+					$dic[$n_pin]++;
+			}
+		$heritageCount=$count;
+		arsort($dic);
+		//echo '------'.'Heritage Percentile: '.percent($dic,$pin);
+		$percent=percent($dic,$pin);
+		$heritageColor=color($percent);
+		//echo $heritageColor;
+		fclose($myfile);
+	}
+	else{
+		echo "File does not exist";
+	}
+	
+	//MEDICAL STORES IN THE PIN
+	if (file_exists($MedicalFile))
+	{
+		$dic=array();
+		$count=0;
+		$myfile= fopen("medicalStore.txt","r");
+		while(!feof($myfile)){
+				$line= fgets($myfile,100);
+				$split=explode("\t", $line);
+				$n_pin= $split[0];
+				$store=$split[1];
+				$value=strcmp($pin,$n_pin);
+				//echo $value." ".$n_pin."<br>";
+				if ($value==2)	
+					$count++;
+					
+				if(check($dic,$n_pin)==false) //percentile
+					$dic[$n_pin]=1;
+				else
+					$dic[$n_pin]++;
+			}
+		$medicalCount=$count;
+		arsort($dic);
+		//echo '------'.'Medical Stores Percentile: '.percent($dic,$pin);
+		$percent=percent($dic,$pin);
+		$medicalColor=color($percent);
+		//echo $medicalColor;
+		fclose($myfile);
+	}
+	else{
+		echo "File does not exist";
+	}
+	
+	//MUSEUMS IN THE PIN
+	if (file_exists($MuseumFile))
+	{
+		$dic=array();
+		$count=0;
+		$myfile= fopen("museum.txt","r");
+		while(!feof($myfile)){
+				$line= fgets($myfile,100);
+				$split=explode("\t", $line);
+				$n_pin= $split[1];
+				$museum=$split[0];
+				$value=strcmp($pin,$n_pin);
+				//echo $n_pin." ".$value."<br>";
+				if ($value==0)	
+					$count++;
+					
+				if(check($dic,$n_pin)==false) //percentile
+					$dic[$n_pin]=1;
+				else
+					$dic[$n_pin]++;
+			}
+		$museumCount=$count;
+		arsort($dic);
+		//echo '------'.'Museums Percentile: '.percent($dic,$pin);
+		$percent=percent($dic,$pin);
+		$museumColor=color($percent);
+		//echo $percent.$museumColor;
+		fclose($myfile);
+	}
+	else{
+		echo "File does not exist";
+	}
+	
+	//PMC SCHOOLS IN THE PIN
+	if (file_exists($PMCschoolFile))
+	{
+		$dic=array();
+		$count=0;
+		$myfile= fopen("PMCschools.txt","r");
+		while(!feof($myfile)){
+				$line= fgets($myfile,100);
+				$split=explode("\t", $line);
+				$n_area= $split[1];
+				$school=$split[0];
+				$value=strcmp($area,$n_area);
+				//echo $n_area." ".$value."<br>";
+				if ($value==-2)	
+					$count++;
+					
+				if(check($dic,$n_pin)==false) //percentile
+					$dic[$n_pin]=1;
+				else
+					$dic[$n_pin]++;
+			}
+		$PMCschoolCount=$count;
+		arsort($dic);
+		//echo '------'.'PMC Schools Percentile: '.percent($dic,$pin);
+		$percent=percent($dic,$pin);
+		$PMCschoolColor=color($percent);
+		//echo $PMCschoolColor;
+		fclose($myfile);
+	}
+	else{
+		echo "File does not exist";
+	}
+	
+	//NURSING HOMES IN THE PIN
+	if (file_exists($NursingFile))
+	{
+		$dic=array();
+		$count=0;
+		$myfile= fopen("home_nursing.txt","r");
+		while(!feof($myfile)){
+				$line= fgets($myfile,100);
+				$split=explode("\t", $line);
+				$n_pin= $split[0];
+				$hospital=$split[1];
+				$value=strcmp($pin,$n_pin);
+				//echo $value." ".$n_pin."<br>";
+				if ($value==2)	
+					$count++;
+					
+				if(check($dic,$n_pin)==false) //percentile
+					$dic[$n_pin]=1;
+				else
+					$dic[$n_pin]++;
+			}
+		$nurseCount=$count;
+		arsort($dic);
+		//echo '------'.'Nursing Percentile: '.percent($dic,$pin);
+		$percent=percent($dic,$pin);
+		$nurseColor=color($percent);
+		//echo $nurseColor;
+		fclose($myfile);
+	}
+	else{
+		echo "File does not exist";
+	}
+	
+	//POLICE STATIONS IN THE PIN
+	if (file_exists($stationFile))
+	{
+		$dic=array();
+		$count = 0;
+		$myfile= fopen("stations.txt","r");
+		while(!feof($myfile)){
+				$line= fgets($myfile,100);
+				$split=explode("\t", $line);
+				$station=$split[0];
+				$n_pin= $split[1];
+				$value=strcmp(trim($pin),$n_pin);
+				//echo $value.' '.$n_pin.'<br>';
+					if ($value==-2)
+						$count++;
+						
+					if(check($dic,$n_pin)==false) //percentile
+						$dic[$n_pin]=1;
+					else
+						$dic[$n_pin]++;
+				}
+		$policeCount=$count;	
+		arsort($dic);
+		//echo '------'.'Police Percentile: '.percent($dic,$pin);
+		$percent=percent($dic,$pin);
+		$policeColor=color($percent);
+		//echo $policeColor;
+		fclose($myfile);
+	}	
+	else
+	{
+		echo $nursingFile." does not exist";
+	}
+	
+	//RESTAURANT FILES IN THE PIN
+	if (file_exists($RestaurantFile))
+	{
+		$dic=array();
+		$count = 0;
+		$myfile= fopen("hrestaurant.txt","r");
+		while(!feof($myfile)){
+				$line= fgets($myfile);
+				$split=explode("\t", $line);
+				$restaurant = $split[0]; 
+				$n_pin= $split[1];
+				$value = strcmp($n_pin, $pin);
+				//echo $value.' '.$n_pin.'<br>';
+				if ($value==0 )
+					$count++;
+					
+				if(check($dic,$n_pin)==false) //percentile
+					$dic[$n_pin]=1;
+				else
+					$dic[$n_pin]++;
+			}
+		$restaurantCount=$count;
+		arsort($dic);
+		//echo '------'.'Restaurants Percentile: '.percent($dic,$pin);
+		$percent=percent($dic,$pin);
+		$restaurantColor=color($percent);
+		//echo $restaurantColor;
+		fclose($myfile);
+	}
+	else
+	{
+		echo $myfile." Does not exist";
+	}
+	
+	//SCHOOLS IN THE PIN	
+	if (file_exists($schoolFile))
+	{
+		$dic=array();
+		$count = 0;
+		$myfile= fopen("schools.txt","r");
+		while(!feof($myfile)){
+				$line= fgets($myfile,100);
+				$split=explode("\t", $line);
+				$n_pin= $split[0];
+				$n_area=$split[1];
+				$value=strcmp($pin,$n_pin);
+				//echo $value.' '.$n_pin.'<br>';
+				if ($value==2)
+					$count = $count + 1;
+					
+				if(check($dic,$n_pin)==false) //percentile
+					$dic[$n_pin]=1;
+				else
+					$dic[$n_pin]++;
+			}
+		$schoolCount=$count;
+		//echo $schoolCount;
+		arsort($dic);
+		//echo '------'.'Private Schools Percentile: '.percent($dic,$pin);
+		$percent=percent($dic,$pin);
+		$schoolColor=color($percent);
+		//echo $schoolColor;
+		fclose($myfile);
+	}
+	else{
+		echo $myfile." does not exist";
+	}
+	?>
+	
+	<div class="area-pin" style="color:white;">
+		<?php echo 'Pin: '.htmlspecialchars($pin).'<br>';?>
+		<?php echo 'Area: '.htmlspecialchars($area)?>
+	</div>
+	</div>
+	<div class="image">
+		<img src="Purpose.png" width="600">
+	</div>
+	
+	
+	<div class="block-data">
+	<div class="contain-color">
+		<ul>
+		<li style="padding-left:25px; font-size:18px;">Percentile</li>
+		<li><div class="box-color" style="background-color:#DC143C;">0-25%</div></li>
+		<li><div class="box-color" style="background-color:orange;">25-50%</div></li>
+		<li><div class="box-color" style="background-color:yellow;">50-75%</div></li>
+		<li><div class="box-color" style="background-color:#7FFF00;">75-100%</div></li>
+		</ul>
+	</div>
+	
+	<div class="contain">
+		<ul>
+		<li><div class='rotate'><p>Hotels</p></div>
+		<div class="box" style="background-color:<?php echo htmlspecialchars($hotelColor)?>;"><?php echo htmlspecialchars($hotelCount)?></div></li>
+		<li><div class='rotate'><p>Banks</p></div>
+		<div class="box" style="background-color:<?php echo htmlspecialchars($bankColor)?>;"><?php echo htmlspecialchars($bankCount)?></div></li>
+		<li><div class='rotate'><p>Bus Depots</p></div>
+		<div class="box" style="background-color:<?php echo htmlspecialchars($busColor)?>;"><?php echo htmlspecialchars($busCount)?></div></li>
+		<li><div class='rotate'><p>Colleges</p></div>
+		<div class="box" style="background-color:<?php echo htmlspecialchars($collegeColor)?>;"><?php echo htmlspecialchars($collegeCount)?></div></li>
+		<li><div class='rotate'><p>Places<br>Heritage</p></div>
+		<div class="box" style="background-color:<?php echo htmlspecialchars($heritageColor)?>;"><?php echo htmlspecialchars($heritageCount)?></div></li>
+		<li><div class='rotate'><p>Stores<br>Medical</p></div>
+		<div class="box" style="background-color:<?php echo htmlspecialchars($medicalColor)?>;"><?php echo htmlspecialchars($medicalCount)?></div></li>
+		<li><div class='rotate'><p>Museums</p></div>
+		<div class="box" style="background-color:<?php echo htmlspecialchars($museumColor)?>;"><?php echo htmlspecialchars($museumCount)?></div></li>
+		<li><div class='rotate'><p>Schools<br>PMC</p></div>
+		<div class="box" style="background-color:<?php echo htmlspecialchars($PMCschoolColor)?>;"><?php echo htmlspecialchars($PMCschoolCount)?></div></li>
+		<li><div class='rotate'><p>Homes<br>Nursing</p></div>
+		<div class="box" style="background-color:<?php echo htmlspecialchars($nurseColor)?>;"><?php echo htmlspecialchars($nurseCount)?></div></li>
+		<li><div class='rotate'><p>Stations<br>Police</p></div>
+		<div class="box" style="background-color:<?php echo htmlspecialchars($policeColor)?>;"><?php echo htmlspecialchars($policeCount)?></div></li>
+		<li><div class='rotate'><p>Restaurants</p></div>
+		<div class="box" style="background-color:<?php echo htmlspecialchars($restaurantColor)?>;"><?php echo htmlspecialchars($restaurantCount)?></div></li>
+		<li><div class='rotate'><p>Schools<br>Private</p></div>
+		<div class="box" style="background-color:<?php echo htmlspecialchars($schoolColor)?>;"><?php echo htmlspecialchars($schoolCount)?></div></li>
+		<li><div class='rotate'><p>Gardens</p></div>
+		<div class="box" style="background-color:<?php echo htmlspecialchars($gardenColor)?>;"><?php echo htmlspecialchars($gardensCount)?></div></li>
+		</ul>
+	</div>
+	</div>
+	
+	<footer></footer>
+</body>
+</html>

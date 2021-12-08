@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>About Us</title>
+        <style>
+		html {
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			animation:transitionIn 0.70s;
+		}
+		
+		@keyframes transitionIn{
+			from{
+				opacity:0;
+				transform:rotateX(-10deg);
+			}
+			to{
+				opacity:1;
+				transform:rotateX(0);
+			}
+		}
+
+		body {
+			font-family: 'Poppins', sans-serif;
+			color: white;
+			margin: 0;
+			padding: 0;
+			perspective: 1px;
+			transform-style: preserve-3d;
+			height: 100%;
+			width: 100%;
+			overflow-y: scroll;
+			overflow-x: hidden;
+		}
+		.form{
+			position:relative;
+			top:100px;
+			
+		}
+		
+		.nav-area {
+			float: none;
+			text-align: center;
+			list-style: none;
+			margin-top: 20px;
+			overflow: hidden;
+			background-color: rgba(0, 0, 0, 0.6);
+			padding: 12px;
+			transition: 0.4s;
+			position: fixed;
+			width: 100%;
+			z-index: 99;
+		}
+		.nav-area li {
+			display: inline-block;
+		}
+		.nav-area li a {
+			color: #fff;
+			text-decoration: none;
+			padding: 5px 20px;
+			text-transform: uppercase;
+		}
+		.nav-area li a:hover {
+			background: #fff;
+			color: #333;
+		}
+		.text{
+			margin-left:80px;
+			height:60%; 
+			width:60%;
+			background-color:white;
+			color:black;
+			text-align:left;
+		}
+		.sources{
+			padding:15px;	
+		}
+		img  
+		{
+			margin-left:80px;
+			height:60%; 
+			width:60%;
+		}
+		footer{
+			height:80px;
+			width:100%;
+			background-color:black;
+			position:relative;
+			top:200px;
+		}
+		
+		</style>
+    </head>
+	<body style="background-color:#E6E6FA;">
+		<div class="menu">
+			<ul class="nav-area">
+			<li><a href="project.html">Home</a></li>
+			<li style="color:white">|</li>
+			<li><a href="AboutUs.html">About Us</a></li>
+			<li style="color:white">|</li>
+			<li><a href="AboutYou.html">Tell Us About You</a></li>
+			<li style="color:white">|</li>
+			<li><a href="OurData.html">Our Data</a></li>
+			</ul>
+		</div>
+		
+		<div class="form">
+		<center>
+			<img src="Graph1.png">
+			<img src="Graph2.png">
+			<img src="Graph3.png">
+			<img src="Graph4.png">
+			<img src="Graph5.png">
+			<img src="Graph6.png">
+			<img src="Graph7.png">
+			<img src="Graph8.png">
+			<img src="Graph9.png">
+			<img src="Graph10.png">
+			<img src="Graph11.png">
+			<img src="Graph12.png">
+			<img src="Graph13.png">
+			<div class="text">
+				<div class="sources">
+					<u>Sources of CSV files used:</u><br><br>
+					PMC Data:<br>
+					<a href="pmc.gov.in">pmc.gov.in</a><br><br>
+					PinCode Data:<br> 
+					<a href="https://www.punediary.com/html/pincode_new.html">https://www.punediary.com/html/pincode_new.html</a>
+					<br><a href="http://zipcodepincode.com/India/Maharashtra/Pune/Pune-City/index.html">http://zipcodepincode.com/India/Maharashtra/Pune/Pune-City/index.html</a>
+					<br><br>
+					Home Prices:<br>
+					<a href="https://www.99acres.com/property-rates-and-price-trends-in-pune">https://www.99acres.com/property-rates-and-price-trends-in-pune</a>
+					<br><br>
+				</div>
+			</div>
+		</center>
+		</div>
+	</body>
+	<footer></footer>
+</html>

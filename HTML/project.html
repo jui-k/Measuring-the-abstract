@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Measuring the abstract</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script type="text/javascript">
+    function DisablePin(){
+   
+		if(document.getElementById("selectArea").value){
+		  document.getElementById("selectPin").disabled = true;
+		} 
+	}  
+	function DisableArea(){
+   
+		if(document.getElementById("selectPin").value){
+		  document.getElementById("selectArea").disabled = true;
+		}                 
+	}                 
+</script>
+	
+</head>
+<body>
+    <header>
+    <div class="wrapper">
+        <div class="logo">
+            
+        </div>
+		<ul class="nav-area">
+		<li><a href="project.html">Home</a></li>
+		<li style="color:white">|</li>
+		<li><a href="AboutUs.html">About Us</a></li>
+		<li style="color:white">|</li>
+		<li><a href="AboutYou.html">Tell Us About You</a></li>
+		<li style="color:white">|</li>
+		<li><a href="OurData.html">Our Data</a></li>
+		</ul>
+	</div>
+	
+	
+	<div class="welcome-text">
+		
+		<form action="search.html" method="GET">
+		  <h3>Select the Location</h3>
+		  <br>
+		  <div class="select">
+				Select Area: <select name="area" id="selectArea" onchange="DisablePin()">
+								<option disabled hidden selected>Select</option>
+								<option>AFMC</option>
+								<option>Airport</option>
+								<option>Airport</option>
+								<option>Akurdi</option>
+								<option>Khadki</option>
+								<option>Bhosari</option>
+								<option>Bhosarigoan</option>
+								<option>Bibvewadi</option>
+								<option>C D A</option>
+								<option>C M E</option>
+								<option>Chinchwad East</option>
+								<option>Chinchwadgaon</option>
+								<option>Dapodi Bazar</option>
+								<option>Dapodi</option>
+								<option>Dhanori</option>
+								<option>Dighi Camp</option>
+								<option>Dr.B.A. Chowk</option>
+								<option>Dukirkline</option>
+								<option>East Khadki</option>
+								<option>Ghorpuri Bazar</option>
+								<option>H.E. Factory</option>
+								<option>Hadapsar</option>
+								<option>Hadpsar</option>
+								<option>Station</option>
+								<option>Indrayaninagar</option>
+								<option>Kalewadi</option>
+								<option>Kasarwadi</option>
+								<option>Khadki Bazar</option>
+								<option>Khadki</option>
+								<option>Kondhwa</option>
+								<option>Kondhwa Budruk</option>
+								<option>Kondhwa Lh</option>
+								<option>Lohogaon</option>
+								<option>M.Phulenagar</option>
+								<option>Market Yard</option>
+								<option>Masulkar Colony</option>
+								<option>Mohamadwadi</option>
+								<option>Mundhva AV</option>
+								<option>Mundhva</option>
+								<option>N I B M</option>
+								<option>N.W. College</option>
+								<option>Nehrunagar</option>
+								<option>Pimpri Chinchwad</option>
+								<option>Pimpri Colony</option>
+								<option>Pimpri Pencilin Factory</option>
+								<option>Pimpri Waghire</option>
+								<option>Punawale</option>
+								<option>Pune Cantinment East</option>
+								<option>Pune</option>
+								<option>Pune New Bazar</option>
+								<option>Rupeenagar</option>
+								<option>Sachapir Street</option>
+								<option>Salisbury Park</option>
+								<option>Sangavi</option>
+								<option>Sasanenagar</option>
+								<option>Srpf</option>
+								<option>Gultekdi</option>
+								<option>Talwade</option>
+								<option>Thathawade</option>
+								<option>Thergaon</option>
+								<option>Vadgaon Sheri</option>
+								<option>Vidyanagar</option>
+								<option>Vishrantwadi</option>
+								<option>Wakad</option>
+								<option>Wanowarie</option>
+								<option>Yamunanagar</option>
+								<option>Yerwada</option>
+								<option>A.R. Shala</option>
+								<option>Anandnagar</option>
+								<option>Armament</option>
+								<option>Aundh</option>
+								<option>Bajirao Road</option>
+								<option>Baner Road</option>
+								<option>Bhavani Peth</option>
+								<option>Bhusari Colony</option>
+								<option>Botanical Garden</option>
+								<option>Congress House Road</option>
+								<option>Deccan Gymkhana</option>
+								<option>Dhankawadi</option>
+								<option>Ex. Serviceman Colony</option>
+								<option>Film Institute</option>
+								<option>Ganeshkhind</option>
+								<option>Ghorpade Peth</option>
+								<option>Govt. Polytechnic</option>
+								<option>Guruwar Peth</option>
+								<option>Kapad Ganj</option>
+								<option>Karvenagar</option>
+								<option>Kasba Peth</option>
+								<option>Katraj</option>
+								<option>Khadakwasla</option>
+								<option>Kothrud</option>
+								<option>Lokmanyanagar</option>
+								<option>Peth</option>
+								<option>Model Colony</option>
+								<option>N.C.L.</option>
+								<option>N.D.A. Khadakwasla</option>
+								<option>Pashan</option>
+								<option>Nana Peth</option>
+								<option>Narayan Peth</option>
+								<option>Navsahyadri</option>
+								<option>Parvati Gaon</option>
+								<option>Parvati</option>
+								<option>Pune City</option>
+								<option>Range Hills</option>
+								<option>Rashtra Bhasha Bhavan</option>
+								<option>Rasta Peth</option>
+								<option>Raviwar Peth</option>
+								<option>S.P. College</option>
+								<option>S.S.C.Exam Board</option>
+								<option>Sadashiv Peth</option>
+								<option>Shaniwar Peth</option>
+								<option>Shivaji Housing Society</option>
+								<option>Shivajinagar</option>
+								<option>Shukrawar Peth</option>
+								<option>Swargate Chowk</option>
+								<option>Swargate</option>
+								<option>Vadgaon Budruk</option>
+								<option>Warje</option>
+								<option>Talwade</option>
+								<option>Sub Office Indrayaninagar2</option>
+								<option>Baner Road</option>
+								<option>Botanical Garden</option>
+								<option>Pune Weather</option>
+								<option>Pune R.S.</option>
+								<option>Khadki Arsenel</option>
+								<option>L.K. Path</option>
+								<option>Chinchwadgaon</option>
+								<option>Rupeenagar</option>
+								<option>Laxmi Road</option>
+												
+							</select> <br> 
+							or
+							<br>
+				
+				Select Pin:	<select name="pin" id="selectPin" onchange="DisableArea()">
+										<option disabled hidden selected>Select</option>
+										<option>411001</option>
+										<option>411002</option>
+										<option>411003</option>
+										<option>411004</option>
+										<option>411005</option>
+										<option>411006</option>
+										<option>411007</option>
+										<option>411008</option>
+										<option>411009</option>
+										<option>411010</option>
+										<option>411011</option>
+										<option>411012</option>
+										<option>411013</option>
+										<option>411014</option>
+										<option>411015</option>
+										<option>411016</option>
+										<option>411017</option>
+										<option>411018</option>
+										<option>411019</option>
+										<option>411020</option>
+										<option>411021</option>
+										<option>411022</option>
+										<option>411023</option>
+										<option>411024</option>
+										<option>411025</option>
+										<option>411026</option>
+										<option>411027</option>
+										<option>411028</option>
+										<option>411029</option>
+										<option>411030</option>
+										<option>411031</option>
+										<option>411032</option>
+										<option>411033</option>
+										<option>411034</option>
+										<option>411035</option>
+										<option>411036</option>
+										<option>411037</option>
+										<option>411038</option>
+										<option>411039</option>
+										<option>411040</option>
+										<option>411041</option>
+										<option>411042</option>
+										<option>411043</option>
+										<option>411044</option>
+										<option>411045</option>
+										<option>411046</option>
+										<option>411047</option>
+										<option>411048</option>
+										<option>411051</option>
+										<option>411052</option>
+										<option>411053</option>
+										<option>411057</option>
+										<option>412114</option>
+									</select>
+				</div>				
+								
+									<br>
+				<input type="submit" id="button" value="Submit" name="result" style="color:white;">
+		</form> 
+	</div>
+	</header>
+
+</body>
+</html>
