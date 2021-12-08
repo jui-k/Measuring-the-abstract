@@ -1,0 +1,66 @@
+﻿Airport 	411032 //
+Akurdi	411035
+Khadki 	411003
+Bhosari 	411026
+Bhosarigoan	411039 //
+Bibwewadi	411037
+Camp 	411001
+Chinchwad	411019
+Dapodi	411012
+Dhanori	411015
+Dighi	411015
+Hadapsar 	411028
+Kalewadi 	411017
+Kasarwadi 	411034
+Kondhwa Budruk	411048
+Lohegaon 	411047
+Mohamadwadi 	411060
+Mundhwa 	411036
+Nehru Nagar 	411018
+Pimpri Chinchwad	411044
+Punawale 	411033
+Salisbury Park 	411037
+Pimple Saudagar 	411027
+Pimple Nilakh 	411027
+Sasane Nagar 	411028
+Srpf 	411022 //
+Gultekadi	411037
+Talawade 	411062
+Tathawade 	411033
+Thergaon 	411033
+Vadgaon Sheri 	411014
+Vidyanagar 	411032 //
+Vishrantwadi 	411015
+Wakad 	411057
+Wanowrie 	411040
+Yamuna Nagar 	411044
+Yerwada 	411006
+Anand Nagar 	411051
+Armament 	411021 //
+Aundh 	411007
+Baner 	411008
+Bhawani Peth 	411042
+Bhusari Colony 	411038
+Deccan Gymkhana 	411004 
+Dhankawadi 	411043
+Guruvar Peth 	411042
+Karve Nagar 	411052
+Katraj 	411046
+Kirkatwadi	411024 
+Kothrud 	411038
+Shaniwar Peth 	411030
+Model Colony 	411016
+N.D.A. Khadakwasla 	411023 //
+Pashan	411045
+Nana Peth 	411002
+Narayan Peth 	411030
+Parvati Darshan 	411009
+Range Hills 	411020 //
+Rasta Peth 	411011
+Sadashiv Peth 	411030
+Shaniwar Peth 	411030
+Shivaji Nagar 	411005
+Shukravar Peth 	411002
+Vadgaon Budruk 	411041
+Warje 	411058
+Chinchwad Gaon	411033

@@ -1,0 +1,54 @@
+411001	The Bishop's School
+411044	Abhimaan High School
+411030	Ahilyadevi High School For Girls
+411003	Alegaonkar Primary School
+411003	All Saints High School
+411014	Anand Vidya Niketan High School
+411001	Anglo Urdu Girl's High School
+411001	Anjuman Islam Peer Mohamed High School
+411001	Basant Primary School
+411005	Bharat English School
+411043	Bharati Vidyapeth Primary English School
+411018	Bhartiya Jain Sanghatana Sanchalit School
+411016	Bhartiyaa Vidya Bhavan
+411001	Camp Edn Primary School
+411001	Choksey S M High School
+411001	Convent Of Jesus And Mary
+411030	Deccan Education School
+411044	Dnyanprabhodhini Navnagar Vidhyalay
+411019	Geetamata English Medium School
+411001	J N Petit Tech High School
+411017	Jai Hind High School
+411018	Judson High School
+411018	Jyoti English High School
+411037	Kendriya Vidyalaya
+411009	Late Sou Laxmibai Rajaram Shinde High School
+411029	M E S Bal Shikshan Mandir English Medium School
+411011	Maharashtra English School
+411045	Mhatob Tukaram Balwadkar Vidyalaya
+411009	Nandadeep Vidyalaya
+411011	Navin Marathi School
+411030	New English School
+411030	Nutan Marathi Vidyalaya
+411002	Ornella's High School
+411018	S S Ajmera School
+412308	Samata Vidyalaya
+412110	Sawab Public School
+411014	Sfs School Shaanwadi
+411030	Shikshan Prasarak Mandalis English School
+411041	Sinhgad Spring Dale School
+412308	Sonai English Medium School
+411001	St Anne's High School
+411044	St Anne's School
+411001	St Felix High School
+411003	St Joseph High School
+411001	St Mary's School
+411001	St Mira's English Medium School
+411001	St Patrick's High School
+411048	St Peters School
+411001	St Vincent's High School
+411030	Tilak Maharashtra Vidyapeeth
+411035	Trinity School
+411004	Ugam School
+411009	Vidya Vikas Vidyalaya
+411052	Vimal Vidyakunj School

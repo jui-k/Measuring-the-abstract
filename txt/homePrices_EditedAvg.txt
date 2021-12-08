@@ -1,0 +1,58 @@
+Akurdi	6226.5
+Anand Nagar	5886.0
+Aundh	8096.0
+Baner	6864.0
+Bhawani Peth	6226.0
+Bhosari	4887.5
+Bhusari Colony	8245.0
+Bibwewadi	6949.0
+Camp	7628.5
+Chinchwad	5950.0
+Chinchwad Gaon	5780.0
+Dapodi	5610.0
+Dhankawadi	4590.0
+Dhanori	5185.0
+Dighi	4802.0
+Gultekadi	7883.5
+Guruvar Peth	7012.5
+Hadapsar	13699.0
+Kalewadi	5567.5
+Karve Nagar	8415.0
+Kasarwadi	5631.5
+Katraj	5142.5
+Khadki	9750.0
+Kirkatwadi	4058.5
+Kondhwa Budruk	4696.5
+Kothrud	8988.5
+Lohegaon	4824.0
+Model Colony	11241.5
+Mohamadwadi	5716.0
+Mundhwa	5971.0
+Nana Peth	7246.0
+Narayan Peth	12500.0
+Nehru Nagar	5270.0
+Parvati Darshan	8351.5
+Pashan	6163.0
+Pimple Nilakh	7204.0
+Pimple Saudagar	6311.5
+Pimpri Chinchwad	5334.0
+Punawale	5079.0
+Rasta Peth	6885.0
+Sadashiv Peth	9243.5
+Salisbury Park	9478.0
+Sasane Nagar	4271.5
+Shaniwar Peth	8181.5
+Shivaji Nagar	11517.5
+Shukravar Peth	7437.5
+Talawade	3634.0
+Tathawade	5504.0
+Thergaon	5589.0
+Vadgaon Budruk	5079.0
+Vadgaon Sheri	6588.0
+Vishrantwadi	5652.5
+Wakad	5929.0
+Wanowrie	7118.5
+Warje	6120.0
+Yamuna Nagar	6750.0
+Yerwada	7076.0
+Deccan Gymkhana	24857.0

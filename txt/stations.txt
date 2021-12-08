@@ -1,0 +1,58 @@
+﻿Kondhwa Police Station	411048
+Alankar Police Station	411052
+Kothrud Police Station	411038
+Sahakar Nagar Police Chowky	411009
+CID Office	411005
+Police Wireless & Spl	411008
+Police Wireless M S & Spl I G P	411021
+Nana Peth Police Chowky	411011
+Khadi Machine Police Chowki	411048
+Narpatgiri Police Chowki	411011
+Karve Nagar Police Station	411052
+Vimantal Police Station	411014
+Vishrantwadi Police Station	411006
+Koregaonpark Police Station	411001
+Parnakuti police Chowkey	411006
+Magarpatta Police Station	411036
+Hadapsar Police Station	411028
+Bundgarden Police Station	411001
+Camp Police Station	411001
+Haveli Police Station	411041
+Bavdhan Police Station	411021
+Chandan Nagar Police Station	411014
+Police Station	411001
+Deccan Police Station	411004
+Dattawadi Police Station	411009
+Kothrud Police Station	411038
+Khadak Police Station	411002
+Swargate Police Station	411042
+Shivajinagar Police Station	411005
+Police Station	411042
+Bharati vidyapeeth Police Station	411043
+Wanawadi Police Station	ashtra
+Yerwada Police Station	411006
+Narayan Peth Police Station	411030
+Police Station	411058
+"Aundh Police Chowki 	411027
+Police Station	411028
+Bibwewadi Police Station	411037
+Center Of Police Research	411008
+Katraj Police Chowki	411038
+Warje Malwadi Police Chowki	411058
+Prabhat Police Chowky	411004
+Balgandharva Police Chowky	411004
+Sahakar Nagar Police Station	411048
+Sinhgad Road Police Station	411051
+Ramoshi Gate Police Station	411002
+Mangaldas Police Station	411001
+Tadiwala Police Station	411001
+Chaturshringi Police Station	411008
+Padamjee Police Chowki	411002
+Mundhawa Police Thane	411036
+Lashkar Police Station	411001
+Perugate Police Chowky	411030
+Senadatta Police Chowky	411030
+Chaturshrungi Police Station	411007
+Kasba Peth Police Station	411011
+Narhe Police Station	411041
+Samarth Police Station	411011

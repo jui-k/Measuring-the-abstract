@@ -1,0 +1,8 @@
+S T Depot Bus Stop	411042
+Pune Central Bus Stop	411016
+Kothrud Bus Depot	411038
+Swargate ST Stand	411042
+Pune Station Bus Stand	411001
+P.M.T Bus Depot	411028
+"MSRTC Bus Depot	411001
+Pune Bus Depot	411001

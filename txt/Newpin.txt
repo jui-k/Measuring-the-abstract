@@ -1,0 +1,128 @@
+﻿AFMC 	411040
+Airport 	411032
+Akurdi S.O	411035
+Khadki 	411003
+Bhosari 	411026
+Bhosarigoan	411039
+Bibvewadi	411037
+C D A 	411001
+C M E 	411031
+Chinchwad East	411019
+Chinchwadgaon	411033
+Dapodi Bazar	411012
+Dapodi	411012
+Dhanori	411015
+Dighi Camp	411015
+Dr.B.A. Chowk 	411001
+Dukirkline	411014
+East Khadki 	411003
+Ghorpuri Bazar 	411001
+H.E. Factory 	411003
+Hadapsar 	411028
+Hadpsar 	411013
+Station	411032
+Indrayaninagar 	411026
+Kalewadi 	411017
+Kasarwadi 	411034
+Khadki Bazar 	411003
+Khadki 	411003
+Kondhwa 	411048
+Kondhwa Budruk	411048
+Kondhwa Lh	411048
+Lohogaon 	411047
+M.Phulenagar 	411019
+Market Yard 	411037
+Masulkar Colony 	411018
+Mohamadwadi 	411060
+Mundhva AV 	411036
+Mundhva 	411036
+N I B M 	411048
+N.W. College 	411001
+Nehrunagar 	411018
+Pimpri Chinchwad	411044
+Pimpri Colony 	411017
+Pimpri Pencilin Factory	411018
+Pimpri Waghire 	411017
+Punawale 	411033
+Pune Cantinment East	411001
+Pune 	411001
+Pune New Bazar 	411001
+Rupeenagar 	411062
+Sachapir Street 	411001
+Salisbury Park 	411037
+Sangavi 	411027
+Sasanenagar 	411028
+Srpf 	411022
+Gultekdi	411037
+Talwade 	411062
+Thathawade 	411033
+Thergaon 	411033
+Vadgaon Sheri 	411014
+Vidyanagar 	411032
+Vishrantwadi 	411015
+Wakad 	411057
+Wanowarie 	411040
+Yamunanagar 	411044
+Yerwada 	411006
+A.R. Shala 	411004
+Anandnagar 	411051
+Armament 	411021
+Aundh 	411007
+Bajirao Road 	411002
+Baner Road 	411008
+Bhavani Peth 	411042
+Bhusari Colony 	411038
+Botanical Garden 	411020
+Congress House Road 	411005
+Deccan Gymkhana 	411004
+Dhankawadi 	411043
+Ex. Serviceman Colony 	411038
+Film Institute 	411004
+Ganeshkhind 	411007
+Ghorpade Peth 	411042
+Govt. Polytechnic 	411016
+Guruwar Peth 	411042
+Kapad Ganj 	411002
+Karvenagar 	411052
+Kasba Peth 	411011
+Katraj 	411046
+Khadakwasla 	411024
+Kothrud 	411038
+Lokmanyanagar 	411030
+Peth 	411011
+Model Colony 	411016
+N.C.L.	411008
+N.D.A. Khadakwasla 	411023
+Pashan	411045
+Nana Peth 	411002
+Narayan Peth 	411030
+Navsahyadri 	411052
+Parvati Gaon 	411009
+Parvati 	411009
+Pune City 	411002
+Range Hills 	411020
+Rashtra Bhasha Bhavan 	411030
+Rasta Peth 	411011
+Raviwar Peth 	411002
+S.P. College 	411030
+S.S.C.Exam Board 	411005
+Sadashiv Peth 	411030
+Shaniwar Peth 	411030
+Shivaji Housing Society 	411016
+Shivajinagar 	411005
+Shukrawar Peth 	411002
+Swargate Chowk	411042
+Swargate 	411042
+Vadgaon Budruk 	411041
+Warje 	411058
+Talwade 	412114
+Sub Office Indrayaninagar 	411032
+Baner Road 	411007
+Botanical Garden 	411003
+Pune Weather 	411005
+Pune R.S.	411001
+Khadki Arsenel 	411003
+L.K. Path	411003
+Chinchwadgaon	411033
+Rupeenagar 	412114
+Laxmi Road	411011

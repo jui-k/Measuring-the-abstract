@@ -1,0 +1,628 @@
+	
+	
+411004	Mahrashtra Medical Foundetion Joshi Hosptial
+411004	Nanal Hospital
+411002	Dr. Deshmukh Hospital
+411030	Colony Nursing Home
+411004	Clinic for Women & Children
+411004	Lokmanya Hospital
+411002	Renu Maternity & Nursing Home
+411005	Dr. Karves Hospital
+411011	Jabde Hospital
+411009	Yashshree Maternity & Nursing Home
+411002	Harjeevan Hospital
+411030	Manoj Clinic
+411005	Sanjeevan Surgery/ Atharva Netralaya & Reserch Centre 
+411006	Katariya Hospital
+411001	Dr. Todkar Hospital
+411009	Marathe Hospital
+411009	Dr. Purohit Maternity Hospital
+411004	Dwidal Nursing Home
+411037	Gultekdi Nursing Home & Maternity Home
+411009	Sushrusha Hospital
+411037	Poona Advantist Hospital
+411002	Aliance Munot Hospital
+411042	Sharada Clinic
+411002	Anand Nursing Home
+411030	Sharada Clinic           Shaishav Clinic
+411009	ENT Hospital
+411030	Surgical Nursing Home
+411030	Sutika Seva Mandir
+411002	Naik Orthopadic Hospital
+411028	Ratnadeep  Hospital
+411029	Dr. Khandkar Hospital
+411030	Dr.Ketkar ENT Hospital
+411002	Kering Hospital
+411030	Mahatma Gandhi Hospital
+411002	Dr.Patankar Medical Foundetion & Patankar Hospital Pvt. Ltd.
+411004	Deshmukh Hospital
+411011	Jijamata Hospital
+411005	Mulanche Navjeevan Hospital
+411004	Shreeyash Hospital
+411037	Yashraj Nursing Home
+411002	Wagdarikar Hospital
+411004	Vartak Health Services pvt. Ltd.
+411004	Madhavrao Rande Memorial Hospital (Sanjivan Hospital)
+411016	Kanitkar Hospital
+411030	Anand Maternity & Nursing Home
+411002	Gokhale Hospital
+411026	Suyash Hospityal
+411009	Pooja Nursing Home
+411030	Dr. Ranade Hospital 
+411009	Asha Nursing Home
+411030	Lathi Hospital & Surgical Nursing Home
+411030	Godbole Hospital 
+411040	Shanta Clinic
+411004	Nachiket Hospital
+411011	Surya Hospital pvt.ltd. Surya sahaydri hospital
+411004	Dhodu Mama Sathe Hospital Vaidykiya Mahavidyalaya
+411005	Sancheti Institute for Orthopedic & Rehabilitaion
+411016	Bapat Hospital
+411030	Shintre Hospital
+411030	Nursing Home
+411034	 Naniwadekar priyanka vasudev
+411006	Vinayak Hospital Maternity Nursing Home & Vinayak Homopatic Clinic
+411002	Amey Nursing Home
+411030	Poona Hospital & Reasarch Center
+411004	Deodhar Eyes Hospital
+411026	Devyani Hospital Surguri Maternity & General Nursing Home
+411029	Niramay Nursing Home
+411005	Surgical & General Nursing Home
+411002	Dr. Khurd Maternity Home
+411028	Sanjeevani Nursing Home
+411006	 Dr. Priyanka Pathak
+411001	Jehangir Hospital
+411038	Phadnis Hospital Maternity & General Nursing Home
+411005	Deendayal Memorial Hospital
+411052	Sahwas Hospital Nursing Home
+411006	Komal  Nursing Home & Shetiya Hospital
+411030	Asha Kiran Hospital
+411009	Kothari Hospital
+411002	Bora Nursing Home
+411005	Suraj Hospital
+411005	Suman Polyclinic & Nursing Home Pediatric & Medical
+411028	Tupe Hospital
+411001	Sadhu Vaswani Mission Medical Complex  (inlax & Budhrani Hospital)
+411001	N.M.Wadiya Institute of Cardiology Charitable Trust
+411016	Sardesai Hospital & ENT Hospital
+411028	Dr. Vaidya Hospital Surgical & General Nursing Home
+411004	Dabake Maternity & General Nursing Home
+411029	Krishna Hospital
+411005	Nursing Home
+411004	Ghaisas ENT Hospital
+411030	Sarswati Vilas Hospital
+411037	Rukhmini Hospital
+411016	Swanand Maternity Hospital & Laboretary
+411029	Gokhale Hospital Maternity & Gaynic Hospital
+411004	Childrens Hospital
+411006	Om Hospital
+411009	Mahajan Nursing Home
+411016	Sant Clinic Gaynic & Maternity Home. (Strirog & prasuti Shashtra Hospital)
+411029	Rode Hospital
+411030	Potdar Maternity Home Obstetric & Gayncology & Pediyatric Speacility
+411009	Zanwar Eye Hospital
+411009	Chinmay Nursing Home
+411038	Shreyas Maternity Home
+411029	Marathe Nursing Home
+411028	Sadhana Hospital & General Hospital
+411028	Sharda Nursing Home
+411037	Kamal Nursing Home
+411037	Joshi Hospital Maternity & Gaynic Hospital
+411030	Akshay Nursing Home
+411028	Chaitanya Nursing Home
+411016	Maharashtra Medical Foundetion Ratna Memorial Hospital
+411029	Kamal Netra Rugnalya
+411028	Deodhar Nursing Home
+411028	Deodhar Nursing Home
+411029	Sushrut Narsing Home
+411028	Hadapsar Clinic
+411037	Anand Hospital
+411030	Bhide Hospital Balrog Vibhag
+411014	Krushna Hospital & Nursing Home
+411052	Ashwini Nursing Home
+411002	Shama General Hospital
+411028	Manu Eye Hospital
+411038	Shri. P.P.Loknath TirthSwami Maharaj Smarak Shri. Tuljabhavani Aarogya Dham
+411009	Shraddha Hospital 
+411007	Kotbagi  Hospital Pvt. Ltd.
+411028	Dr. Gaikwad Hospital
+411004	Kushte Nursing Home Maternity & General Surgical Nursing Home
+411014	Shri Hospital Nursing
+411009	Suman Sargical Home
+411015	Vinod Memorial Hospital
+411037	Kale Hospital
+411028	Dhanwantari Hospital
+411002	Shaikh  Hospital
+411037	Dr. Purohit Nursing Home
+411014	Dr. Nenes Hospital
+411030	Vastalya Nursing Home
+411030	Yogesh Hospital
+411007	Shreyash Maternity & Eye Hospital
+411038	Omkar Nursing Home
+411016	Walvekar Hospital
+411005	Kelkar Hospital
+411007	Latkar Hospital
+411037	Siddharth Hospital
+411037	Shri J. Hospital
+411043	Orthopedic Nursing Home
+411006	PETELS HOSPITAL
+411029	Dr. Sabane Prasuti & Shushrusha Gruh
+411030	Anup Hospital
+411005	Kelkar Nursing Home
+411028	Nirmal  Memorial Hospital
+411002	Umarji Hospital
+411009	Bhave Nursing Hospital
+411006	Mathura Hospital
+411009	Date Hospital
+411004	Phadke Hospital
+411040	Purunanda Sargical Clinic
+411028	Navjeevan Hospital
+411037	Parasnis Hospital
+411030	Gandhi Accident & General Hospital
+411028	Gaikwad Hospital
+411014	Shushrut Hospital
+411016	Sakhi Clinic
+411038	Sarpotdar Eye Hospital
+411004	Akshay Hospital
+411033	Kulkarni Endo Surgery  Institute & Reconstructive  Urology  Center
+411052	Srujan Maternity & Nursing Home
+411016	Joglekar Hospital
+411037	Karne Hospital Pvt. Ltd. Orthopedic Nursing Home
+411043	Dr. Pai Hospital
+411004	Pramodini Urology Foundiation & Stree Clinic
+411009	Siddhant Maternity Home
+411037	Dr. Tekwade Eye Hospital
+411030	Date Hospital
+411042	Swyam Clinic & Nursing Home
+411002	Kulkarni Hospital & Child Hospital & Prasutigruh
+411029	Suryaprabha Nursing Home & ENT Hospital
+411011	Chandak Hospital
+411043	Dr. Patwardhan Hospital & Prasutigruha
+411042	Dr. Kothari Accident Hospital
+411006	Dr. Talesara  Hospital
+411048	Satyanand  Hospital 
+411030	Aashtang Ayurved Rugnalaya
+411016	Vaibhav General Hospital
+411040	Dr. Telang Hospital
+411009	Mother Home  Fartility Clinic
+411052	Vivekanand Medical Foundetion Under Dr. Khenat Hospital
+411037	Dr. Bhagli Clinic
+411037	Dr. Bhagli Nursing Home
+411043	Shatau Hospital
+411014	Niramay Hospital
+411029	Sneha ENT Hospital
+411052	Sayali Nursing Home
+411041	Kamla Devi Memorial Hospital
+411043	Vimal Nursing Home
+411043	Pawar Multispeciality Hospital & dignostic Centre Pvt.Ltd.
+411051	Madhukar General Hospital
+411011	Mulye Hospital
+411030	Parvati Netra Chikitsalya
+411046	Yashwant Hospital
+411029	Suyash Hospital
+411029	Kamat Clinic
+411051	Jagtap Hospital
+411042	Manohar Prasuti Gruha
+411011	Modern ENT Hospital
+411004	Gadkari Eye Center
+411004	Dhadfale Nursing Home
+411029	Joshi Maternity Hospital
+411051	Bhandari Maternity & Nursing Home
+411051	Adate General Hospital
+411029	Sathe Maternity Home
+411030	Deshmukh Nursing Home
+411040	Kamal Nursing Home & Maternity Home
+411004	Prakash Eyes Hospital
+411029	Sanjeevani Hospital
+411014	Aawari Hospital
+411041	Sham Nursing Home
+411028	Dharmadhikari Hospital
+411030	Eye Hospital ( Dr. Bhats Eye Care Center )
+411011	K.E.M. Hospital
+411029	vatsal Hospital
+411013	Samarth Hospital
+411046	Shri Sai Sneh Diagnostic  Center Pvt. Ltd.
+411025	Maher Nursing Home
+411002	N.M.Wadia Hospital
+411043	Chaitanya Nursing Home
+411015	Belsare ENT Hospital
+411028	Bhalerao Prasuti Gruha
+411042	Dr. S.D.Patil Eye Clinic & Hospital
+411038	Suvidha Nursing Home
+411011	Kumbhare Hospital
+411038	Kurtkoti Nursing Home
+411037	Dr. Kashyap Nursing Home
+411043	Purohit Hospital
+411002	Panchsheel Hospital
+411043	Paras Nursing Home
+411009	Dr. Parkhi Nursing Home
+411038	Vyanketesh  General Hospital
+411048	G.M.Babubhai Memorial Hospital
+411037	Ranka Medical Foundetion
+411014	Salunke Hospital
+411007	Sanjeev Maternity & Surgical Hospital
+411015	Kedarnath Nursing Home
+411040	Dr. Alum
+411006	Shri Samrath Hospital
+411028	PBMAS H.V.Desai Hospital
+411030	Prabhudesai Eye Clinic
+411052	Bhagirathi Child Hospital
+411006	Inam Hospital Charitable Trust
+411028	Usha Kiran Hospital
+411051	Sadguru Nursing Home
+411029	Patil Hospital
+411051	M/s. Prachiti Hospital & Resarch Center
+411004	Deenannath Mangeshkar Hospital
+411029	Girija Nursing Home
+411040	Anusaya Hospital
+411041	Sharad Orthopedic Hospital
+411028	Gandhi Hospital
+411041	Yashwant Hospital
+411030	Chinmay Nursing Home 
+411038	Bakshi Hospital
+411029	Ashwini Nursing Home & Maternity Hospital
+411015	Dr. Konkar Nursing Home
+411028	Nande Hospital
+411021	Ajinkya Nursing Home
+411005	Pandit Clinic
+411028	Alatkar Hospital
+411006	Shah  Accident  Hospital
+411037	Joshi Hospital Women & Gaynic & Maternity Hospital
+411007	Life Line Hospital
+411037	Sangam Hospital
+411016	Bidkar Nursing Home
+411004	Padalkar Pediatric & Nionetal Nursing Home
+411003	Yashoda Nursing Home
+411037	Harsh Hospital
+411005	Polyclinic & Hospital
+411030	Dr. Karawa Hospital Maternity Surgical & General Hospital 
+411007	Medipoint Hospital
+411015	Kasturba General Hospital
+411037	Mother Care Clinic Nursing Home
+411006	Dharma Orthopedic Center
+411002	Badve Maternity & Nursing Home
+411030	Niranjan Nursing Home
+411014	Bumb Nursing Home
+411004	Nayan Jyot Eye Clinic & Lesar Center
+411006	Amit Hospital
+411052	Pramila Care Center
+411009	Shahade Hospital
+411041	Trimurti Hospital
+411040	Nobal Hospital
+411014	Rakshak Hospital
+411009	Chaitanya Hospital & Nursing Home
+411007	Surya Netralaya
+411042	Vimal Hospital
+411007	Dr. Sarode Nursing Home
+411005	Sandip Wagh Eye Center
+411005	C.D.C. & Center for Laproscopy Surgery
+411043	Shri Sainath Nursing Home
+411038	Eye Care Center
+411028	Sanjeevani Nursing Home
+411006	Sirin  Hospital Pvt. Ltd.
+411028	Sunita Nursing Home
+411029	Prakash Nursing Home
+411043	Disha Nursing Home
+411029	Chaitanya Hospital
+411004	Kaluskar Hospital & Laboretory
+411011	Shri Samrath Hospital
+411038	Borse Nursing Home
+411028	Vaibhavi Hospital
+411043	Unity Ortho & Eyes Hospital
+411029	Machve Hospital
+411037	Mehta Nursing Home
+411036	Ganga Nursing Home
+411004	Konkan Mitra Mandal Trusts Sahyadri  super Speciality Hospital
+411004	Paranjpe Eye Clinic & Surgery Center
+411038	Sindhu Nursing Home
+411006	Sai nursing Home
+411051	Ashirwad Hospital
+411038	Suyash Nursing Home & General Nursing Hospital
+411014	Shri Datta Hospital & Nursing Home
+411007	Divya Eye Clinic
+411009	Gurukrupa Maternity Home
+411043	Bharti Hospital
+411006	Nikhil polyclinic
+411015	Anand eye care
+411043	Shri Sainath Ho spital
+411048	Aadarsh Hospital
+411007	Parmar Hospital
+411046	Shrisai Prasad Hospital
+411028	Londhe Hospital
+411037	Chintamani Hospital
+411006	Rutu Anand Hospital
+411046	Yashraj Nursing Home
+411030	Bidaye Hospital pvt.ltd.
+411051	Mankar children & eye hospital
+411004	Deccan Center
+411043	anand hospital
+411001	Dr. Gogate  eye clinic
+411038	vinayak netralaya
+411014	Dr. jadhav eye foundetion resarch & devolapment center
+411004	khare eye institute
+411029	sahyadri hospital 
+411009	Dr. bande hospital
+411004	prashant hospital maternity & general hospital
+411038	sunny  nursing home
+411015	saideep eye hospital
+411037	Trimal Hospital
+411002	dr. pabalkar nursing home
+411040	vatsalya  children hospital
+411007	Healthplus nursing home
+411014	Shraddha Hospital 
+411016	pratibha nursing home
+411013	Nobel  Hospital
+411002	chavan nursing home
+411016	punrvasu chikitsalaya
+411037	suraj hospital
+411038	shashwat health pvt.ltd shashwat Hospital.
+411058	Anand hospital
+411014	k.k. hospital
+411021	Bavdhan medicare center
+411001	amrut hospital
+411028	sane guruji aarogya kendra
+411015	shushurt multi -speciality  hospital
+411037	Ankur clinic nursing home
+411011	kumbhare hospital
+411009	sapna clinic
+411037	chandralok hospital
+411037	The eye foundetion
+411005	Oyster  & pearl hospital pvt.ltd.
+411040	Ayodhya chaitrtable trust
+411011	indian red cross soc. Nursing home
+411030	Ramkrishna  hospital
+411005	center for joint repleacment surgary
+411004	Rakhi nursing home
+411011	Samarth Hospital
+411037	Mohan ent clinic
+411037	Rahi health care
+411037	sahydri hospital ltd. Sahyadri Hospital
+411045	Manswardhan diduction rehabliation mental health
+411028	varadvinayak hospital
+411028	spandan general hospital
+411037	shri balaji eye hospital
+411011	Dhanwantari hospital
+411037	yashashree  hospital
+411042	Meera hospital
+411037	Vinayak Hospital
+411028	inamdar hospital ( c.i.m.e.t.)
+411001	Bliz fertility center & pune center for womens health
+411028	aabane hospital
+411040	aakankasha eye clinic day care center
+411037	Dr. Sada multi specality hospital
+411058	Lata Mangeshkar Medical Foundations Mai Mangeshkar Hospital
+411009	Apurva panchkarma center
+411030	s.p.deshpande eye clinic
+411021	om hopital
+411030	Dr. chitale ent hospital
+411041	omkar hospital
+411016	Oyster  & pearl Tulip  hospital 
+411037	Gujar children hospital
+411030	vibhute hospital
+411001	skin citi hospital
+411014	Medipoint hospital
+411021	prakash netralaya
+411042	shri maternity & nursing home
+411014	kohkade hospital
+411009	parvati general hospital
+411015	vinod memorial multispeciality hospital
+411048	Lifeline multispecaity Hospital
+411030	Bhide hospital orthopedic divission
+411041	Rakshak multi specility hospital
+411011	universal hospital
+411037	vardhman eye care 
+411030	lapro obeso center
+411030	netra seva kendra ( jan kalyan eye bank )
+411037	rao nursing home
+411030	shendkar health care  hospitality services pvt. Ltd. Global Hospital & Reserch Institute
+411007	adkar hospital & resarch institute pvt.ltd.( sai shree hospital )/ Orthopedic Centre
+411016	shri eye & dental clinic
+411043	Naik nimbalkar hospital ( day - care eye hospital )
+411011	kumbhare clinic & nursing home
+411004	emrald endoscopy center
+411001	Grant medical foundetion Ruby Holl Clinic
+411004	galaxcy care laproscopy institute pvt. Ltd.
+411046	shivneri hospital
+411005	dr. manohar joshi memorial hospital
+411037	Ishwar krupa nursing home
+411043	sidhhi hospital laproscopy center
+411007	Aims hospital & resarch center
+411048	kala clinic & nursing home
+411007	shaswat hospital ( aundh )
+411014	Dyandeep general hospital
+411043	Suyog Narsing Home Pra. Ltd. 
+411038	Parivartan Ayurved Hospital
+411040	Grant medical foundetion Ruby Holl Clinic- wanovari
+411030	Ashswini Hospital
+411028	Ashirvad ENT And Maternity Hospital
+411014	Chandan Nagar Nursing Home
+411030	Saikrupa Narsing Home
+411002	Yashda Hospital
+411030	Parvati Ganral Hospital
+411038	Famili Planing Asociation Of India
+411038	Contacare Eye Hospital
+411028	shivam hospital
+411028	Life Care Hospital
+411014	Kolambia Ashia Hospital Pr. Ltd.
+411038	Devyani Multy Speciality Hospital
+411046	Dhanwantari Clinic
+411006	Sahyadri Hospitals Ltd.-Sahyadri Super Speciality Hospital (Nagar Road)
+411042	Kalyani Hospital 
+411030	Chandrama Clinic
+411052	Lodha Hospital And Maternity Home
+411038	nayantara eye clinic
+411051	pharande eye hospital & phaco center
+411011	sheth tarachand ramanath charitable aurvedic hospital
+411043	bharti ayurved hospital
+411045	Datar Hospital
+411004	Vision next
+411029	Janani Nursing Home 
+411060	Chhaya Hospital
+411041	Gurdeo Nursing Home
+411058	Matruchaya Nursing Home
+411013	Contacare Eye Hospital
+411043	Bharti Homeopathic Hospital
+411028	Alatkar Hospital
+411015	Dhanwantari Hospital
+411009	Lokmanya hospital Pvt. Ltd.
+411028	Shatayu Nursing Home
+411028	Meera Matrnity & General Hospital
+411005	Atharv Hospital
+411048	Sarwat Hospital
+411028	Tanmay Nursing Home
+411002	Shantalaxmi Clinic
+411002	Dr. Bhange's Eye Day Care Center
+411014	Gold Rush Hospital
+411043	Modi Clinic
+411014	Mrunmayee Health Cear pvt. Ltd. ( sangamnerkar Hospital )
+411051	Sharad Hospital
+411005	Pearl womens hospital & yash IVF`
+411043	Samarth Nursing Home
+411058	Vinayak Hospital
+411043	Samarth Nursing Home
+411014	Anup Nursing Home
+411038	Prabhudesai Eye Clinic
+411060	Adnya Clinic & Nursing Home
+411028	Lotus Hospital
+411052	Gems Hospital & Enodoscopy Center
+411058	Shree Nursnig Home
+411028	Zed Plus Accident Hospital & Nursing Home
+411028	Shree Gurudatta Specaility Hospital
+411048	Siddiqua Hospital & Nursing Home
+411007	Pune Netraylaya
+411002	Vastalya Hospital
+411048	Om Hospital
+411014	Kalyani Nursing Home
+411030	Nova Pluse IVF Clinic Pvt. Ltd.
+411015	Ameya Nursing Home
+411009	 Dr. Pramod Venktesh Butte
+411004	Poona Leasar Center
+411030	Neo Hospital
+411013	 Dr. H.K.Sale
+411041	Shraddha Nursing Home
+411041	Om Nursing Home
+411005	Sai Netralay & specality Clinic
+411005	kids clinic (I) pvt. Ltd. Cline  nine Hospital
+411028	Zenith Medicare Pvt. Ltd.
+411014	Kirad Nursing Home
+411002	Kamalnayan Nursing Home/Hospital
+411014	shree Hospital Criticare & Trauma Centre Pvt.Ltd.
+411030	Chaitanya Eye Clinic & phaco centre
+411030	Apolo Speciality Hospitals Pvt. Ltd.
+411028	 President & Mananging Trustee.
+411014	Indira IVF Hospital pvt. Ltd.
+411045	Ashwini Hospital
+411001	Bansal Medical Foundation
+411030	Healing Hands Clinic Pvt. Ltd.
+411030	Ashtang Ayurved Rugnalaya
+411016	Asthetic Medispa Pvt. Ltd. (Day-care)
+411045	Sanjivan Hospital
+411007	ELPIS IVF & Maternity Home
+411007	National Institute of Ophalmology (Neo Aundh)
+411014	Sagar Nursing Home
+411045	Vimal Nursing Home
+411042	Eva Nursing Home
+411046	Moraya Nursing Home LLP
+411001	Healing Hands Clinic Pvt. Ltd.
+411014	Balaji Hospital
+411006	Kids clinic (I) pvt. Ltd. cloud nine Hospital
+411014	Kurkute Hospital
+411058	Siddharth Nursing Home
+411014	Sai nursing Home
+411048	Chandra Nursing Home
+411046	Siddhivinayak Hopital
+411001	Aisan Eye Hospital & laser Institute
+411028	Maheshwari Multispeciality Healthcare & Reserch centre LLP
+411015	CT Nursing Home          (Unit-2)
+411045	Dhanwantari Hospital
+411028	Usha Maternity Home
+411046	 Dr. Patil Puja Vishwas
+411014	Akash Eye Clinic & laser Centre
+411014	Dr. Damale skin Clinic
+411016	Dr. Nakhare Clinic
+411007	Adakar Hospital & Reserch Institutes
+411014	Kamat hospital
+411014	Dr. Jadhav kids Hospital/ Dr. Jadhav Lahan Mulanche Hospital
+411028	APS Nursing Home
+411028	Prakash Hospital
+411038	shashwat Hospital (Medical Wing)
+411006	OM Eye Care
+411038	Axix Eye Clinic
+411045	Jupiter Lifeline Hospitals Ltd.
+411014	Rising Medicare Hospital
+411048	New Pune Hospital & Nursing Home
+411015	Vaibhav Nursing Home
+411052	Ingale womens Hospital
+411009	Walimbe Eye Clinic
+411014	Chintamani Hospital
+411041	Shri Nursing Home
+411028	Gandhi Hospital
+411043	Sanjivani Nurinsg Home
+411004	Poona Eye Care & Pvt. Ltd.
+411002	Namtra Nursing Home
+411048	chordiya nursing home
+411045	Zanwar Felicity Pvt. Ltd. (Healing Hands Clinic)
+411004	Blossoms Women Care
+411030	Laxmi Clinic
+411048	New Sofiya Hospital
+411048	Hi-Tech Eye Surgery & Leser Centre
+411048	National Hospital
+411009	Krishna Prabhu Hospital
+411014	Ashwini Nursing Home
+411005	Pune Fertility Centre
+411028	Pawar Surgical Hospital
+411002	Om Eye Clinic & laser Centre
+411028	Dr. Mhaske Hospital & reserch Centre Pvt. Ltd.
+411041	Shinde Hospital & Nursing Home
+411005	Khade Chinldren Hospital
+411037	Shreeram Eye & Dental Care Centre
+411051	Samarth Eye Clinic & Day-Care Centre
+411038	Jehangir Speciality Hospital (Unit Of Principal HealthCare & Wellness Pvt. Ltd.
+411038	Yash Eye Clinic
+411028	Navjeevan Nursing Home
+411041	Anuja Hospital
+411052	Borikar Hospital
+411038	Divya Jyot Hospital
+411028	sahyadri Hospitals Ltd.-Sahyadri Super Speciality Hospital (Hadpasar)
+411015	Bhimrao Tidke Patil MultiSpeciality Hospital Pvt. Ltd.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

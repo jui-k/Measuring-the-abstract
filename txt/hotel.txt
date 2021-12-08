@@ -1,0 +1,148 @@
+Hotel Dwarka	411005
+Hotel Deccan Pavilion	411041
+NewLeaf Hotel	411014
+Sai Heritage	411011
+Popular Hotel	411051
+Beverly Hills Hotel	411040
+Hotel Lotus	411001
+Garuda Hotels Pvt Ltd	411004
+Gordon House Hotel	411016
+Hotel Swaroop	411004
+The Krish	411011
+Silver Inn Hotel	411001
+Tarawade Clarks Inn	411005
+Hotel Park Pune	411005
+Hotel Samrat	411003
+Hotel Dreamland	411001
+Hotel Brookside	411014
+Hotel Ashoka	411030
+Hotel Fidalgo	411014
+Hotel Suraj	411004
+Da Casa Business Hotel	411011
+Hotel Laxman	411004
+Hotel Surya Villa	411001
+Corporate Stay	411045
+Hotel Pearl	411005
+Hotel The Grand Tulip	411042
+Hotel Ketan	411004
+Chetna Hotel	411002
+Lakme Executive The Business Hotel	411004
+Treebo Golden Emerald	411037
+The Central Park Hotel	411004
+National Hotel	411001
+Hotel HMR Royal Inn	411046
+Sai Palace Hotel	411004
+Hotel Utsav Deluxe	411037
+Holiday Inn	411045
+The Ambience Hotel	411016
+Smart Inn Hotel	411004
+Hotel President	411004
+Aurora Towers Hotel	411001
+Kapila Business Hotel	411001
+JM Four Hotel	411004
+Hotel Phoenix	411001
+The Corinthians Resort and Club Pune	411060
+The Orchid Hotel	411045
+Hotel Hindustan International	411014
+Radisson Blu Hotel Pune Kharadi	411014
+Hotel Jagannath	411011
+Hotel Lokesh	411009
+Cocoon Hotel	411013
+The Samrat Hotel	411001
+Ambassador Hotel	411016
+Treebo Sahara	411016
+Hotel Chetak	411016
+Le Royce Hotel	411001
+Hotel Raviraj Pune	411004
+Royal Orchid Golden Suites	411014
+Deccan Rendezvous	411004
+Premier Inn Pune Kharadi Hotel	411014
+Hotel Shivkrupa	411001
+Treebo Deccan8	411004
+Hotel Srimaan	411001
+Hotel Rajmandir	411001
+The Westin Pune Koregaon Park	411001
+Hotel Woodland	411001
+St Laurn Business Hotels	411001
+Park Ornate Hotel	411001
+Quality Inn Mint	411001
+E-Square	411016
+RutuGandh Heritage	411004
+Ibis Pune	411014
+The Deccan Royaale	411004
+Royal Orchid Central Pune	411014
+The Citiotel	411005
+Conrad Pune	411001
+Hotel Meru	411001
+Hotel Shivam	411001
+Marriott Suites Pune	411036
+Novotel Pune Nagar Road	411014
+Hotel Sagar Plaza	411001
+Hotel Shree Panchratna	411001
+Hotel Gulmohr	411001
+The Central Park Hotel	411001
+Crowne Plaza Pune City Centre	411001
+Vivanta By Taj - Blue Diamond	411001
+The O Hotel	411001
+Hyatt Pune	411006
+Hyatt Regency Pune	411014
+Hotel Basera	411002
+The Swan Inn	411005
+Hotel Bhooshan	411005
+The Centurion Hotel	411005
+Ramee Grand Hotel Pune	411004
+Hotel Shreyas	411004
+The Pride Hotel Pune	411005
+Shantai Hotel	411011
+Hotel Ashish Plaza	411004
+Treebo Guest House	411001
+Hotel Sudarshan	411006
+Hotel Kshitij	411045
+Hotel Tushar	411030
+Hotel Mukesh Residency	411001
+Hotel Safari Private Limited	411005
+Starlit Select MontVert	411045
+Hotel Chandan Residency	411014
+Hotel Eco inn	411014
+FabHotel Silver Crest Viman Nagar	411014
+Yatrik	411002
+Hotel South Court	411001
+Hotel Nandanvan	411037
+Pacific Suites Hotel	411014
+Anup Hotel	411015
+pune central city	500060
+FabHotel Sadanand Hinjewadi Baner	411045
+Fab Hotel Imperio Baner	411005
+Pancard Club	411001
+Sunderban Resort & Spa	411001
+FabHotel Bhagyashree Magarpatta	411028
+Metro Hotel	411001
+FabHotel Ivy Studios Viman Nagar	411014
+Hotel Western Park	411021
+Hotel Hill View Ex	411004
+Hotel Nanashree Grand	411014
+Hotel Ellora Park	411043
+Maurya Residency	411005
+Hotel Sargam	411006
+Accor Services	411038
+Regent	411005
+Hotel Aundh Retreat	411007
+Hotel Gandharva Residency	411028
+Hotel Sahara	411037
+Hotel Surya	411011
+Hotel Supreme Heritage	411014
+Hotel Aura	411037
+Hotel Orient	411011
+Padma Krishna Hotel	411011
+Royal Arcade	411043
+Sadanand	411001
+Hotel Tiranga Residency	411002
+United-21 The Grand	411045
+Hotel Bel Air	411001
+Amanora The Fern Hotels and Club	411028
+Hotel Prince Regency	411006
+Green Plaza Hotel	411001
+Kapil Residency	411011
+Hotel Sanman	411004
+Hotel Ashray	411009
+Hotel Royalty	411004

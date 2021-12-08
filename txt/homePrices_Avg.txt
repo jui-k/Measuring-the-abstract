@@ -1,0 +1,245 @@
+Abasaheb Raikar Nagar	4271.0
+Akurdi	6226.5
+Alandi	3846.0
+Alandi Road	4292.0
+Ambegaon	4781.0
+Ambegaon Bk	4781.5
+Ambegaon Budruk	4632.5
+Ambegaon Pathar	3315.0
+Anand Nagar	5886.0
+Ashoka Nagar	6991.5
+Aundh	8096.0
+Aundh Gaon	7586.0
+B.T Kawade Road	6099.0
+Balaji Nagar	3633.5
+Balewadi	6439.0
+Balewadi Phata	6927.5
+Baner	6864.0
+Baner-Sus	5589.0
+Baner Pashan Link Road	7501.5
+Baramati	2614.0
+Bavdhan	6120.0
+Bekrai Nagar	3676.0
+Benkar Nagar	4165.0
+Bhandarkar Road	12474.0
+Bhausaheb Kalate Nagar	6332.5
+Bhawani Peth	6226.0
+Bhekrai Nagar	3761.0
+Bhosale Nagar	13472.5
+Bhosari	4887.5
+Bhugaon	5397.5
+Bhujbal Vasti	5886.5
+Bhukum	4186.5
+Bhumkar Nagar	5780.0
+Bhunde Vasti	6247.5
+Bhusari Colony	8245.0
+Bibwewadi	6949.0
+Bibwewadi Kondhwa Road	7098.0
+Boat Club Road	10880.0
+Bopodi	6800.0
+Borhade Wadi	4250.0
+Bund Garden	9456.5
+Camp	7628.5
+Chakan	3251.5
+Charholi	4441.0
+Charholi Budruk	4441.5
+Chikhali	4505.0
+Chinchwad	5950.0
+Chinchwad Gaon	5780.0
+Clover Park	6778.5
+Dahanukar Colony	10200.0
+Dangat Patil Nagar	3442.5
+Dange Chowk	5907.0
+Dapodi	5610.0
+Dattanagar	4909.0
+Dattawadi	9074.0
+Dhankawadi	4590.0
+Dhanori	5185.0
+Dhayari	4547.0
+Dhayari Phata	5440.0
+Dighi	4802.0
+Eon Free Zone	6609.0
+Erandwane	11475.0
+Fatima Nagar	6056.0
+Fursungi Gaon	3506.5
+Gaikwad Vasti	3697.5
+Ganesh Nagar	6588.0
+Ghorpadi	7246.5
+Gokul Nagar	4675.0
+Gultekadi	7883.5
+Guruvar Peth	7012.5
+Hadapsar Gaon	5333.5
+Handewadi	4144.0
+Hingne Khurd	4207.5
+Hinjewadi	5418.5
+Hinjewadi Phase 1	5546.5
+Hinjewadi Phase 2	5419.0
+Jambhul	3123.5
+Jijai Nagar	7607.0
+Kad Nagar	4632.5
+Kalas	5780.0
+Kalepadal	4101.5
+Kale Padal	4228.5
+Kalewadi	5567.5
+Kalyani Nagar	8372.5
+Kalyani Nagar Annexe	7437.0
+Kanhe	3209.0
+Karve Nagar	8415.0
+Kasar Amboli	3506.0
+Kasarwadi	5631.5
+Kaspate Vasti	6247.5
+Kate Wasti	5418.5
+Katraj	5142.5
+Katraj Kondhwa Road	5100.0
+Kedari Nagar	6970.0
+Keshav Nagar	5865.0
+Kesnand	3676.0
+Kharadi	6736.5
+Kirkatwadi	4058.5
+Kiwale	4824.0
+Kondhawe Dhawade	4038.0
+Kondhwa	5078.5
+Kondhwa Budruk	4696.5
+Koregaon Bhima	3251.5
+Koregaon Park	9690.0
+Koregaon Park Annexe	7926.0
+Kothrud	8988.5
+Kunj Colony	6608.5
+Kutwal Colony	5015.0
+Law College Road	12282.0
+Laxman Nagar	8415.0
+Laxmi Nagar	5100.0
+Lohegaon	4824.0
+Loni Kalbhor	3506.5
+Lullanagar	5674.0
+Madhav Nagar	5333.5
+Magarpatta	7374.0
+Mahadeonagar	4016.0
+Mahadev Nagar	4399.0
+Mahalunge Ingale	2784.0
+Malwadi	6587.0
+Mamurdi	4738.5
+Manaji Nagar	4271.0
+Manik Baug	5227.5
+Manjri	4866.0
+Manjri BK	4823.5
+Market Yard	8223.5
+Marunji	4314.0
+Mayur Colony	11347.5
+Mhada Colony	7501.5
+Model Colony	11241.5
+Mohamadwadi	5716.0
+Mokarwadi	4165.0
+Moshi	4271.0
+Mundhwa	5971.0
+Munjaba Vasti	4972.5
+Nana Peth	7246.0
+Nanded	5971.0
+Nandel Fata	5780.0
+Narhe	4165.0
+Nehru Nagar	5270.0
+Nere	4335.0
+New Sanghvi	6120.0
+NIBM	5419.0
+Nigdi	5546.5
+North Hadapsar	5674.0
+Old Sangvi	5121.0
+Pandhari Nagar	5695.0
+Pandurang Industrial Area	5673.5
+Papde Wasti	3825.0
+Parkhe Vasti	5440.0
+Parvati Darshan	8351.5
+Pashan	6163.0
+Pashan-Sus Road	5653.0
+Patil Nagar	6481.0
+Paud Road	6141.5
+Phase-3 Hinjewadi	5398.0
+Phursungi	4122.5
+Pimple Gurav	6248.0
+Pimple Nilakh	7204.0
+Pimple Saudagar	6311.5
+Pimpri	5610.0
+Pimpri Chinchwad	5334.0
+Pirangut	3931.0
+Pisoli	4228.5
+Postal Colony	6226.5
+Prabhat Road	12835.0
+Pradhikaran	6332.0
+Punawale	5079.0
+Pune-Satara Road	6906.0
+Pune Mumbai Highway	6035.0
+Pune Nagar Road	3634.0
+Pune Sholapur Road	3145.0
+Rahatani	6056.0
+Rajgurunagar	2571.5
+Rakshak Nagar	6290.0
+Rambaug Colony	9010.0
+Rasta Peth	6885.0
+Ravet	5057.5
+Sadashiv Peth	9243.5
+Sai Nagar Park	6418.0
+Sainath Nagar	6078.0
+Sakore Nagar	6651.5
+Salisbury Park	9478.0
+Salunke Vihar	5865.0
+Sanaswadi	2868.5
+Sanewadi	8181.5
+Sangamvadi	13472.0
+Sasane Nagar	4271.5
+Satar Nagar	3740.0
+Satav Nagar	4377.5
+Sector-6 Moshi	5334.0
+Sector-29 Ravet	5993.0
+Senapati Bapat Road	10285.0
+Shaniwar Peth	8181.5
+Shankar Kalat Nagar	6078.0
+Shastri Nagar	7395.0
+Shikrapur	3081.0
+Shinde Vasti	5844.0
+Shivaji Nagar	11517.5
+Shivane	3867.5
+Shiv Nagar	4080.0
+Shivneri Nagar	5568.0
+Shukravar Peth	7437.5
+Siddartha Nagar	5567.5
+Sinhgad Road	4654.0
+Somatane	3633.5
+Someshwarwadi	7777.5
+Somwar Peth	6290.0
+Sopan Baug	9222.5
+Sukhsagar Nagar	4887.5
+Sus	5397.5
+Talawade	3634.0
+Talegaon	3761.0
+Talegaon Dabhade	3634.0
+Talegaon Dhamdhere	2868.5
+Tathawade	5504.0
+Thergaon	5589.0
+Thite Nagar	6226.0
+Tilekar Nagar	4654.0
+Tingre Nagar	5738.0
+Tukaram Nagar	6247.5
+Tulaja Bhawani Nagar	6417.5
+Udyog Nagar	4632.5
+Undri	5142.0
+Uruli Kanchan	2763.0
+Vadgaon Budruk	5079.0
+Vadgaon Sheri	6588.0
+Varale	3570.0
+Veerbhadra Nagar	6545.0
+Viman Nagar	7480.0
+Vishal Nagar	6311.0
+Vishnu Dev Nagar	5929.0
+Vishrantwadi	5652.5
+Wadgaon Budruk	5142.0
+Wadgaon Sheri	5992.5
+Wagholi	4080.0
+Wakad	5929.0
+Wakad Annexe	5482.5
+Wanowrie	7118.5
+Wanwadi	6991.0
+Warje	6120.0
+Warje Malwadi	5397.5
+Wireless Colony	7628.5
+Yerwada	7076.0
+Yewalewadi	4058.5

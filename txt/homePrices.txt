@@ -1,0 +1,310 @@
+Abasaheb Raikar Nagar	3782 	 4760
+Abasaheb Raikar Nagar	3782 	 4760
+Akurdi	5738 	 6715
+Alandi	3612 	 4080
+Alandi Road	3952 	 4632
+Ambegaon	4250 	 5312
+Ambegaon Bk	4165 	 5398
+Ambegaon Budruk	4080 	 5185
+Ambegaon Pathar	2932 	 3698
+Anand Nagar	5142 	 6630
+Ashoka Nagar	6715 	 7268
+Aundh	7522 	 8670
+Aundh Gaon	6842 	 8330
+B.T Kawade Road	5568 	 6630
+Balaji Nagar	3272 	 3995
+Balewadi	6078 	 6800
+Balewadi Phata	6375 	 7480
+Baner	6248 	 7480
+Baner-Sus	5228 	 5950
+Baner Pashan Link Road	6885 	 8118
+Baramati	2338 	 2890
+Bavdhan	5738 	 6502
+Bekrai Nagar	3442 	 3910
+Benkar Nagar	3655 	 4675
+Benkar Nagar	3655 	 4675
+Bhandarkar Road	11900 	 13048
+Bhandarkar Road	11900 	 13048
+Bhausaheb Kalate Nagar	5950 	 6715
+Bhawani Peth	5610 	 6842
+Bhekrai Nagar	3442 	 4080
+Bhekrai Nagar	3442 	 4080
+Bhekrai Nagar	3442 	 4080
+Bhosale Nagar	12665 	 14280
+Bhosari	4420 	 5355
+Bhugaon	5015 	 5780
+Bhujbal Vasti	5398 	 6375
+Bhukum	3825 	 4548
+Bhumkar Nagar	5440 	 6120
+Bhunde Vasti	6035 	 6460
+Bhusari Colony	7650 	 8840
+Bibwewadi	6248 	 7650
+Bibwewadi Kondhwa Road	6248 	 7948
+Boat Club Road	9775 	 11985
+Bopodi	6162 	 7438
+Borhade Wadi	4122 	 4378
+Bund Garden	8798 	 10115
+Camp	7055 	 8202
+Chakan	2975 	 3528
+Chakan	2975 	 3528
+Charholi	4080 	 4802
+Charholi Budruk	3995 	 4888
+Chikhali	4122 	 4888
+Chinchwad	5185 	 6715
+Chinchwad Gaon	5058 	 6502
+Chinchwad Gaon	5058 	 6502
+Clover Park	6502 	 7055
+Dahanukar Colony	9648 	 10752
+Dangat Patil Nagar	3060 	 3825
+Dange Chowk	5482 	 6332
+Dapodi	5228 	 5992
+Dattanagar	4548 	 5270
+Dattawadi	7948 	 10200
+Dattawadi	7948 	 10200
+Dhankawadi	3782 	 5398
+Dhanori	4845 	 5525
+Dhayari	4122 	 4972
+Dhayari Phata	5015 	 5865
+Dhayari Phata	5015 	 5865
+Dhayari Phata	5015 	 5865
+Dighi	4462 	 5142
+Eon Free Zone	6078 	 7140
+Erandwane	10370 	 12580
+Fatima Nagar	5780 	 6332
+Fursungi Gaon	3145 	 3868
+Fursungi Gaon	3145 	 3868
+Gaikwad Vasti	3655 	 3740
+Ganesh Nagar	5908 	 7268
+Ghorpadi	6715 	 7778
+Ghorpadi	6715 	 7778
+Gokul Nagar	4292 	 5058
+Gultekadi	6885 	 8882
+Gultekadi	6885 	 8882
+Guruvar Peth	6545 	 7480
+Guruvar Peth	6545 	 7480
+Hadapsar Gaon	4675 	 5992
+Handewadi	3740 	 4548
+Handewadi	3740 	 4548
+Hingne Khurd	3825 	 4590
+Hinjewadi	5015 	 5822
+Hinjewadi Phase 1	5355 	 5738
+Hinjewadi Phase 2	5100 	 5738
+Hinjewadi Phase 2	5100 	 5738
+Hinjewadi Phase 2	5100 	 5738
+Jambhul	2805 	 3442
+Jijai Nagar	7182 	 8032
+Jijai Nagar	7182 	 8032
+Kad Nagar	4420 	 4845
+Kalas	5355 	 6205
+Kalepadal	3825 	 4378
+Kale Padal	3952 	 4505
+Kalewadi	5270 	 5865
+Kalyani Nagar	7650 	 9095
+Kalyani Nagar Annexe	6842 	 8032
+Kanhe	3060 	 3358
+Kanhe	3060 	 3358
+Karve Nagar	7268 	 9562
+Karve Nagar	7268 	 9562
+Kasar Amboli	3272 	 3740
+Kasarwadi	5228 	 6035
+Kasarwadi	5228 	 6035
+Kaspate Vasti	5865 	 6630
+Kate Wasti	4802 	 6035
+Katraj	4420 	 5865
+Katraj Kondhwa Road	4632 	 5568
+Kedari Nagar	6630 	 7310
+Keshav Nagar	5398 	 6332
+Kesnand	3442 	 3910
+Kesnand	3442 	 3910
+Kesnand	3442 	 3910
+Kharadi	6205 	 7268
+Kirkatwadi	3825 	 4292
+Kiwale	4378 	 5270
+Kondhawe Dhawade	3698 	 4378
+Kondhwa	4632 	 5525
+Kondhwa Budruk	4208 	 5185
+Koregaon Bhima	2805 	 3698
+Koregaon Park	8500 	 10880
+Koregaon Park Annexe	7140 	 8712
+Kothrud	8032 	 9945
+Kunj Colony	6502 	 6715
+Kutwal Colony	4760 	 5270
+Law College Road	11262 	 13302
+Laxman Nagar	7735 	 9095
+Laxmi Nagar	4505 	 5695
+Lohegaon	4378 	 5270
+Lohegaon	4378 	 5270
+Loni Kalbhor	2975 	 4038
+Lullanagar	5228 	 6120
+Madhav Nagar	5015 	 5652
+Magarpatta	6970 	 7778
+Mahadeonagar	3782 	 4250
+Mahadev Nagar	3740 	 5058
+Mahadev Nagar	3740 	 5058
+Mahalunge Ingale	2380 	 3188
+Mahalunge Ingale	2380 	 3188
+Malwadi	5992 	 7182
+Mamurdi	4335 	 5142
+Manaji Nagar	3952 	 4590
+Manaji Nagar	3952 	 4590
+Manik Baug	4675 	 5780
+Manik Baug	4675 	 5780
+Manjri	4420 	 5312
+Manjri BK	4462 	 5185
+Market Yard	7352 	 9095
+Marunji	3740 	 4888
+Marunji	3740 	 4888
+Mayur Colony	10285 	 12410
+Mayur Colony	10285 	 12410
+Mhada Colony	7225 	 7778
+Mhada Colony	7225 	 7778
+Model Colony	10158 	 12325
+Mohamadwadi	5142 	 6290
+Mohamadwadi	5142 	 6290
+Mokarwadi	3910 	 4420
+Mokarwadi	3910 	 4420
+Moshi	3952 	 4590
+Mundhwa	5482 	 6460
+Munjaba Vasti	4505 	 5440
+Munjaba Vasti	4505 	 5440
+Nana Peth	6290 	 8202
+Nanded	5652 	 6290
+Nandel Fata	5482 	 6078
+Nandel Fata	5482 	 6078
+Nandel Fata	5482 	 6078
+Narhe	3910 	 4420
+Nehru Nagar	4888 	 5652
+Nere	3825 	 4845
+New Sanghvi	5482 	 6758
+NIBM	4930 	 5908
+Nigdi	4548 	 6545
+North Hadapsar	5270 	 6078
+Old Sangvi	4802 	 5440
+Old Sangvi	4802 	 5440
+Pandhari Nagar	4930 	 6460
+Pandurang Industrial Area	5525 	 5822
+Papde Wasti	3655 	 3995
+Parkhe Vasti	5058 	 5822
+Parvati Darshan	7395 	 9308
+Pashan	5568 	 6758
+Pashan-Sus Road	5228 	 6078
+Patil Nagar	5992 	 6970
+Paud Road	5738 	 6545
+Paud Road	5738 	 6545
+Phase-3 Hinjewadi	5058 	 5738
+Phursungi	3825 	 4420
+Pimple Gurav	5738 	 6758
+Pimple Nilakh	6758 	 7650
+Pimple Saudagar	5908 	 6715
+Pimpri	5142 	 6078
+Pimpri Chinchwad	4930 	 5738
+Pimpri Chinchwad	4930 	 5738
+Pirangut	3570 	 4292
+Pisoli	3995 	 4462
+Postal Colony	5865 	 6588
+Prabhat Road	11985 	 13685
+Pradhikaran	5992 	 6672
+Punawale	4718 	 5440
+Pune-Satara Road	6162 	 7650
+Pune Mumbai Highway	5185 	 6885
+Pune Nagar Road	3400 	 3868
+Pune Sholapur Road	2635 	 3655
+Pune Sholapur Road	2635 	 3655
+Rahatani	5652 	 6460
+Rajgurunagar	2338 	 2805
+Rakshak Nagar	5908 	 6672
+Rakshak Nagar	5908 	 6672
+Rambaug Colony	8202 	 9818
+Rambaug Colony	8202 	 9818
+Rasta Peth	6460 	 7310
+Ravet	4760 	 5355
+Sadashiv Peth	8585 	 9902
+Sadashiv Peth	8585 	 9902
+Sadashiv Peth	8585 	 9902
+Sai Nagar Park	6248 	 6588
+Sainath Nagar	5908 	 6248
+Sainath Nagar	5908 	 6248
+Sainath Nagar	5908 	 6248
+Sakore Nagar	6248 	 7055
+Salisbury Park	9138 	 9818
+Salunke Vihar	5652 	 6078
+Sanaswadi	2635 	 3102
+Sanewadi	6885 	 9478
+Sangamvadi	11942 	 15002
+Sangamvadi	11942 	 15002
+Sasane Nagar	4038 	 4505
+Satar Nagar	3612 	 3868
+Satav Nagar	3910 	 4845
+Sector-6 Moshi	5228 	 5440
+Sector-29 Ravet	5738 	 6248
+Sector-29 Ravet	5738 	 6248
+Senapati Bapat Road	9732 	 10838
+Senapati Bapat Road	9732 	 10838
+Shaniwar Peth	7735 	 8628
+Shankar Kalat Nagar	5738 	 6418
+Shastri Nagar	6970 	 7820
+Shastri Nagar	6970 	 7820
+Shikrapur	2890 	 3272
+Shikrapur	2890 	 3272
+Shinde Vasti	5398 	 6290
+Shinde Vasti	5398 	 6290
+Shivaji Nagar	10625 	 12410
+Shivane	3485 	 4250
+Shiv Nagar	3782 	 4378
+Shivneri Nagar	5058 	 6078
+Shivneri Nagar	5058 	 6078
+Shukravar Peth	6460 	 8415
+Siddartha Nagar	5270 	 5865
+Siddartha Nagar	5270 	 5865
+Sinhgad Road	4208 	 5100
+Somatane	3272 	 3995
+Someshwarwadi	7225 	 8330
+Someshwarwadi	7225 	 8330
+Somwar Peth	5652 	 6928
+Sopan Baug	8500 	 9945
+Sopan Baug	8500 	 9945
+Sukhsagar Nagar	4335 	 5440
+Sus	5015 	 5780
+Sus	5015 	 5780
+Talawade	3358 	 3910
+Talegaon	3400 	 4122
+Talegaon Dabhade	3400 	 3868
+Talegaon Dhamdhere	2635 	 3102
+Tathawade	5058 	 5950
+Thergaon	5228 	 5950
+Thite Nagar	5822 	 6630
+Tilekar Nagar	4420 	 4888
+Tilekar Nagar	4420 	 4888
+Tingre Nagar	5058 	 6418
+Tukaram Nagar	5865 	 6630
+Tulaja Bhawani Nagar	6035 	 6800
+Udyog Nagar	4335 	 4930
+Undri	4632 	 5652
+Uruli Kanchan	2338 	 3188
+Vadgaon Budruk	4548 	 5610
+Vadgaon Sheri	6078 	 7098
+Vadgaon Sheri	6078 	 7098
+Varale	3400 	 3740
+Veerbhadra Nagar	6120 	 6970
+Viman Nagar	7012 	 7948
+Vishal Nagar	5822 	 6800
+Vishnu Dev Nagar	5738 	 6120
+Vishrantwadi	5185 	 6120
+Vishrantwadi	5185 	 6120
+Wadgaon Budruk	4632 	 5652
+Wadgaon Sheri	5695 	 6290
+Wadgaon Sheri	5695 	 6290
+Wadgaon Sheri	5695 	 6290
+Wagholi	3698 	 4462
+Wakad	5568 	 6290
+Wakad Annexe	5015 	 5950
+Wakad Annexe	5015 	 5950
+Wakad Annexe	5015 	 5950
+Wanowrie	6375 	 7862
+Wanwadi	6162 	 7820
+Warje	5652 	 6588
+Warje Malwadi	4930 	 5865
+Wireless Colony	7225 	 8032
+Wireless Colony	7225 	 8032
+Yerwada	6672 	 7480
+Yewalewadi	3655 	 4462
