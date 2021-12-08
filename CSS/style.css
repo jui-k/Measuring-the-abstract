@@ -1,0 +1,120 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		font-family: 'Poppins', sans-serif;
+		overflow: hidden;
+	}
+	html {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		animation:transitionIn 0.70s;
+	}
+		
+	@keyframes transitionIn{
+		from{
+			opacity:0;
+			transform:rotateX(-0deg);
+		}
+		to{
+			opacity:1;
+			transform:rotateX(0);
+		}
+	}
+	
+	.wrapper {
+		margin: auto;
+		padding: 1px;
+		text-align: center;
+		background-color: rgba(0, 0, 0, 0.6);
+		width: 100%;
+		color: white;
+	}
+	header {
+		background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://wallpaperaccess.com/full/1295942.jpg);
+		height: 100vh;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: center center;
+		position: relative;
+	}
+	rect{
+		fill: transparent;
+		
+	}
+	
+	#barchart_material{
+		padding: 10px;
+		position: absolute;
+		top:150px;	
+		width: 100%;
+		z-index: 99;
+	}
+	.nav-area {
+		float: none;
+		text-align: center;
+		list-style: none;
+		margin-top: 20px;
+		overflow: hidden;
+		background-color: rgba(0, 0, 0, 0.6);
+		padding: 10px;
+		transition: 0.4s;
+		position: fixed;
+		width: 100%;
+		z-index: 99;
+	}
+	.nav-area li {
+		display: inline-block;
+	}
+	.nav-area li a {
+		color: #fff;
+		text-decoration: none;
+		padding: 5px 20px;
+		text-transform: uppercase;
+	}
+	.nav-area li a:hover {
+		background: #fff;
+		color: #333;
+	}
+	.welcome-text {
+		position: absolute;
+		left: 80px;
+		top:1px;
+		width: 400px;
+		height: 200px;
+		margin: 20% 30%;
+		text-align: center;
+		background-color:rgba(0,0,0,0.8);
+		
+	}
+	.welcome-text input{
+		padding:3px;
+		margin-top:10px;
+		border:none;
+		outline:none;
+		border-radius:.2rem;
+	}
+	#button{
+		background-color:#483D8B;
+		padding:5px;
+	}
+	#button:hover{
+		background-color: #9370DB;
+	}
+	.welcome-text h1 {
+		text-align: center;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 60px;
+	}
+	.welcome-text h3 {
+		text-align: center;
+		color: #00fecb;
+	}
+	.select {
+		color: white;
+	}

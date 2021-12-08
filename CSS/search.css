@@ -1,0 +1,172 @@
+* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			font-family: 'Poppins', sans-serif;
+			margin: 0;
+			padding: 0;
+			perspective: 1px;
+			transform-style: preserve-3d;
+			height: 100%;
+			width: 100%;
+			overflow-y: scroll;
+			overflow-x: hidden;
+		}
+		.wrapper {
+			margin: auto;
+			padding: 1px;
+			text-align: center;
+			background-color: rgba(0, 0, 0, 0.6);
+			width: 100%;
+			color: white;
+		}
+		header {
+			background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://wallpaperaccess.com/full/1295942.jpg);
+			height: 100vh;
+			-webkit-background-size: cover;
+			background-size: cover;
+			background-position: center;
+			position: relative;
+		}
+		.phpCode{
+			background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(banner.jpg);
+			top:100px;
+			background-position: center;
+			position: relative;
+			top:150px;
+			height:300px;
+		}
+		.area-pin{
+			position:relative;
+			top:100px;
+			text-align:center;
+			font-size:25px;
+		}	
+		rect{
+			fill: rgba(0, 66, 103,0.5);
+		}
+		circle{
+			fill:red;
+		}
+		text{
+			fill: #ffffff;
+		}
+		line{
+			stroke:#00000000;
+		}
+		.nav-area {
+			float: none;
+			text-align: center;
+			list-style: none;
+			margin-top: 20px;
+			overflow: hidden;
+			background-color: rgba(0, 0, 0, 0.6);
+			padding:12px;
+			position: fixed;
+			width: 100%;
+			
+		}
+		.nav-area li {
+			display: inline-block;
+		}
+		.nav-area li a {
+			color: #fff;
+			text-decoration: none;
+			padding: 5px 20px;
+			text-transform: uppercase;
+		}
+		.nav-area li a:hover {
+			background: #fff;
+			color: #333;
+		}
+
+		#chart_div{
+			padding: 10px;
+			position: absolute;
+			top:150px;
+			left:20px;
+			z-index: 99;
+			
+		}
+		#dot_div{
+			padding: 10px;
+			position: absolute;
+			top:150px;
+			left:670px;			
+			z-index: 99;
+		}
+		.google-visualization-tooltip > g > text {
+        fill: black;
+		}
+		.graph{
+			position:absolute;
+			bottom:600px;
+		}
+		.box{
+			width: 15px;
+			border: 1px solid white;
+			border-radius:5px;
+			padding: 18px;
+			margin: 13px;
+			text-align:center;	
+		}
+		.rotate{
+			writing-mode:vertical-lr;
+			display:inline;
+			padding-left:28px;
+			font-size:15px;
+				
+		}
+		.contain li {
+			display: inline-block;
+		}
+		.contain{
+			position:absolute;
+			left:200px;
+			top:90px;
+		}
+		.contain p{
+			font-family: Roboto;
+		}
+		.box-color{
+			height: 2px;
+			width:65px;
+			border: 1px solid white;
+			border-radius:5px;
+			padding: 15px;
+			margin: 15px;
+			text-align:center;
+			padding-bottom:20px;
+		}
+		.rotate-color{
+			display:inline;
+			position:absolute;
+			font-size:15px;
+			padding-left:80px;
+				
+		}
+
+		.contain-color li {
+			list-style-type: none;
+		}	
+		
+		.image{
+			position:absolute;
+			right:500px;
+			top:720px;
+		}
+		
+		.block-data{
+			position:relative;
+			top:170px;
+			left:100px;
+		}
+		
+		footer{
+			height:80px;
+			width:100%;
+			background-color:black;
+			position:relative;
+			top:200px;
+		}
